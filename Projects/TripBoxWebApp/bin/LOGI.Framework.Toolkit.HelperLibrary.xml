@@ -1,0 +1,3770 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LOGI.Framework.Toolkit.HelperLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelperBase.GetAppConfigValueFromSiteIfEmpty(System.String,System.String)">
+            <summary>
+            AppConfig'den ilgili sub key yoksa site üzerinden alır
+            </summary>
+            <param name="siteAppSettingValue"></param>
+            <param name="subAppSettingKey"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper">
+            <summary>
+             static property değerlerine erişimi sağlayan sınıf
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.GetAppConfigValueFromSiteIfEmpty(System.String,System.String)">
+            <summary>
+            AppConfig'den ilgili sub key yoksa site üzerinden alır
+            </summary>
+            <param name="siteAppSettingValue"></param>
+            <param name="subAppSettingKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.GetSessionTimeOutLimitAsSecondByProvider(System.String)">
+            <summary>
+             Satın alma yada rezerve etme dışındaki requestlerde time out süresi
+            </summary>
+            <param name="providerName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.GetRequestTimeLimitAsSecondByProvider(System.String)">
+            <summary>
+             Satın alma yada rezerve etme dışındaki requestlerde time out süresi
+            </summary>
+            <param name="providerName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.GetBookRequestTimeLimitAsSecondByProvider(System.String)">
+            <summary>
+             Satın alma yada rezerve etme time out süresi
+            </summary>
+            <param name="providerName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.GetPromotionClassesBy(System.String)">
+            <summary>
+             Bir uçuş servisin promosyon sınıflarını belirler
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.GetBasketItemTemplateFile(System.Collections.IDictionary,System.String)">
+            <summary>
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.GetBasketItemReservationDetailTemplateFile(System.String)">
+            <summary>
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.GetBasketItemReservationDetailItemTemplateFile(System.String)">
+            <summary>
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.GetBasketItemReservationDetailItemPriceTemplateFile(System.String)">
+            <summary>
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.GetCurrencyConverterBy(System.String)">
+            <summary>
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.GetStateOfTheService(System.String)">
+            <summary>
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.GetFlightEnableServiceFee(System.String)">
+            <summary>
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.GetModeOfTheService(System.String)">
+            <summary>
+             Servisin test yada prod durumunu belirtir.
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.GetLog2MailToListByProvider(System.String,System.String)">
+            <summary>
+             Log2MailToList
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.GetLog2MailToListByProvider(System.String)">
+            <summary>
+             Log2MailToList
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.GetETicketTemplateFilePathByModuleItem(System.Collections.IDictionary,System.String,System.String)">
+            <summary>
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web">
+            <summary>
+             Web uygulaması işlemlerinin static property değerlerine erişimi sağlayan sınıf
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.ToTitleCaseRegexFormat">
+            <summary>
+             BasketTripItemRefNoPrefix
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.BasketTripItemRefNoPrefix">
+            <summary>
+             BasketTripItemRefNoPrefix
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.GeneratingUniqueMinSize">
+            <summary>
+             GeneratingUniqueMinSize
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.GeneratingUniqueMaxSize">
+            <summary>
+             GeneratingUniqueMaxSize
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.ApplicationName">
+            <summary>
+             ApplicationName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.AffiliateCode">
+            <summary>
+             AffiliateUser
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.AffiliateUser">
+            <summary>
+             AffiliateUser
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.AffiliatePassword">
+            <summary>
+             AffiliatePassword
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.AffiliateIPAddress">
+            <summary>
+             AffiliateIPAdrress
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.TravelPortalConnectionString">
+            <summary>
+             TravelPortalConnectionString
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.SiteCurrencyToStringFormat">
+            <summary>
+            Decimal değerlerin ToString ile hassasiyet'in kaç karakter olacağını belirler.
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.SiteCulture">
+            <summary>
+             DeveloperMode
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.SiteDefaultCurrencySymbol">
+            <summary>
+             SiteCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.DeveloperMode">
+            <summary>
+             DeveloperMode
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.ActivationRequired">
+            <summary>
+             ActivationRequired
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.DisableDosCheck">
+            <summary>
+             DisableDOSCheck
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.SiteHost">
+            <summary>
+             SiteHost
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.DisableCache">
+            <summary>
+             DisableCache
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.RequestTimeLimitAsSecond">
+            <summary>
+             Service Request Time Limit As Second
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.BookRequestTimeLimitAsSecond">
+            <summary>
+             Service Book Request Time Limit As Second
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.DefaultMailFrom">
+            <summary>
+             SiteDefaultMailFrom
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.DefaultMailTo">
+            <summary>
+             SiteDefaultMailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.MailGroupAgency_ForExceptions">
+            <summary>
+             MailGroupAgency_ForExceptions
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.GetBasketTransactionResultTripItemTemplateFile">
+             <summary>
+             Basket Trip Item TransactionResult görünümü
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.GetBasketTransactionSuccessGroupsResultTemplateFile">
+             <summary>
+             Basket Trip Success Item TransactionResult görünümü
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.GetBasketTransactionFailedGroupsResultTemplateFile">
+             <summary>
+             Basket Trip Failed Item TransactionResult görünümü
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.GetBasketTransactionCancelledGroupsResultTemplateFile">
+             <summary>
+             Basket Trip Cancelled Item TransactionResult görünümü
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.GetShoppingDetailTemplateFile">
+             <summary>
+             Alışveriş detayı görünümü
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.GetShoppingDetailTripItemTemplateFile">
+             <summary>
+            Alışveriş detayı görünümü
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.GetMyTripInfoTripItemTemplateFile">
+             <summary>
+            My Trip ınfo
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.getBasketTemplateFileFullPath(System.Collections.IDictionary,System.String)">
+            <summary>
+            Basket için container folder düzenlemesi
+            </summary>
+            <param name="filePath">Template file path</param>
+            <returns>Container Folder Path + Template File Path</returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.GetBasketTemplateFile(System.Collections.IDictionary)">
+             <summary>
+             Basket görünümü
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.GetBasketTripItemTemplateFile(System.Collections.IDictionary)">
+             <summary>
+             Basket Trip Item görünümü
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.GetBasketTripPassengerItemTemplateFile(System.Collections.IDictionary)">
+             <summary>
+             Basket Trip Passenger Item görünümü (trip içindeki herbir passenger için)
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.GetBasketTripItemPassengerInfoTemplateFile">
+             <summary>
+             Basket Trip Item PassengerInfo görünümü (trip içindeki tüm passengerlar için)
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.GetBasketTripOptionItemTemplateFile(System.Collections.IDictionary)">
+             <summary>
+             Basket Trip Item Options görünümü
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.GetBasketTripMilesCardWrapperTemplateFile">
+             <summary>
+             Basket Trip Miles Card görünümü
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.GetBasketTripSpecialRequestWrapperTemplateFile">
+             <summary>
+             Basket Trip SpecialRequest görünümü
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.GetBasketRuleTemplateFile(System.Collections.IDictionary)">
+             <summary>
+             Basket Trip Item Rule görünümü
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.GetBasketCampaignTemplateFile(System.Collections.IDictionary)">
+             <summary>
+             Basket Campaign Rule görünümü
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.GetBasketTransactionResultTemplateFile">
+             <summary>
+             Basket TransactionResult görünümü
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.BasketTripItemRuleViewCacheKey">
+            <summary>
+            Basket Trip Item Rule görünümü cache key'i
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.BasketTripItemDetailViewCacheKey">
+            <summary>
+            Basket Trip Item görünümü  cache key'i
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.BasketTripItemOptionViewCacheKey">
+            <summary>
+            Basket Trip Item Option görünümü cache key'i
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.BasketTripItemOptionContainerKey">
+            <summary>
+            Basket Trip Item Option Container key'i
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.EnableReservationApproval">
+            <summary>
+             Rezervasyon onay işleminin aktif olma durumu
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.BasketContainerFolderKey">
+            <summary>
+             Basket template üst folder
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.ServiceModeInTest">
+            <summary>
+             Test/prod durumunu belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.EnableReservation">
+            <summary>
+             Uygulama seviyesinde rezervasyonun yapılıp yapılamayacağı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.EnableServiceFee">
+            <summary>
+             Uygulama seviyesinde fee alınıp alınmayacağı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.EnableFareBasis">
+            <summary>
+             EnableFareBasis
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.OrderMail">
+            <summary>
+            Mail template bilgileri
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.OrderMail.GetOrderResultTemplateFile">
+            <summary>
+             OrderResultTemplateFile
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.OrderMail.GetBasketOrderMailTemplateFile">
+            <summary>
+             Basket'ın mail template görüntüsünü sağlayan view
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.OrderMail.GetBasketOrderMailTripItemTemplateFile">
+            <summary>
+             Tüm Trip ve altındaki item'ların viewlerini içeren template
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.OrderMail.GetOrderMailTripItemTemplateFileByType(System.String)">
+            <summary>
+             Order işlemlerinde gönderilecek mail içeriğini belirtilen tipe göre gösterecek ana view
+            </summary>
+            <param name="moduleName">Module Name</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.OrderMail.GetTripItemOrderMailPassengerTemplateFileByType(System.String)">
+            <summary>
+             Order işlemlerinde gönderilecek mail içeriğini belirtilen tipe göre yolcuları gösterecek view
+            </summary>
+            <param name="moduleName">Module Name</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.OrderMail.GetOrderMailItemTemplateFileByType(System.String)">
+            <summary>
+             Order işlemlerinde gönderilecek mail içeriğini belirtilen tipin item'larına göre gösterecek item view
+            </summary>
+            <param name="moduleName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.FollowUp">
+            <summary>
+            Mail template bilgileri
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.FollowUp.GetOrderResultTemplateFile">
+            <summary>
+             OrderResultTemplateFile
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.FollowUp.GetFollowUpTemplateFile">
+            <summary>
+             Basket'ın mail template görüntüsünü sağlayan view
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.FollowUp.GetBasketFollowUpTripItemTemplateFile">
+            <summary>
+             Tüm Trip ve altındaki item'ların viewlerini içeren template
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.FollowUp.GetFollowUpTripItemTemplateFileByType(System.String)">
+            <summary>
+             Order işlemlerinde gönderilecek mail içeriğini belirtilen tipe göre gösterecek ana view
+            </summary>
+            <param name="moduleName">Module Name</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.FollowUp.GetTripItemFollowUpPassengerTemplateFileByType(System.String)">
+            <summary>
+             Order işlemlerinde gönderilecek mail içeriğini belirtilen tipe göre yolcuları gösterecek view
+            </summary>
+            <param name="type">Module Name</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.FollowUp.GetFollowUpItemTemplateFileByType(System.String)">
+            <summary>
+             Order işlemlerinde gönderilecek mail içeriğini belirtilen tipin item'larına göre gösterecek item view
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.ReservationMail">
+            <summary>
+            Rezervasyon Mail template bilgileri
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.ReservationMail.GetReservationResultTemplateFile">
+            <summary>
+             ReservationResultTemplateFile
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.ReservationMail.GetBasketReservationMailTemplateFile">
+            <summary>
+             Basket'ın mail template görüntüsünü sağlayan view
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.ReservationMail.GetBasketReservationMailTripItemTemplateFile">
+            <summary>
+             Tüm Trip ve altındaki item'ların viewlerini içeren template
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.ReservationMail.GetReservationMailTripItemTemplateFileByType(System.String)">
+            <summary>
+             Reservation işlemlerinde gönderilecek mail içeriğini belirtilen tipe göre gösterecek ana view
+            </summary>
+            <param name="moduleName">Module Name</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.ReservationMail.GetTripItemReservationMailPassengerTemplateFileByType(System.String)">
+            <summary>
+             Reservation işlemlerinde gönderilecek mail içeriğini belirtilen tipe göre yolcuları gösterecek view
+            </summary>
+            <param name="moduleName">Module Name</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Web.ReservationMail.GetReservationMailItemTemplateFileByType(System.String)">
+            <summary>
+             Reservation işlemlerinde gönderilecek mail içeriğini belirtilen tipin item'larına göre gösterecek item view
+            </summary>
+            <param name="moduleName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.BootStrapper">
+            <summary>
+             BootStrapper işlemlerinin static property değerlerine erişimi sağlayan sınıf
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.BootStrapper.UnitySectionName">
+            <summary>
+             UnitySectionName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.BootStrapper.UnityContainerName">
+            <summary>
+             DefaultServiceLocator, Toolkit.Core içerisinde tanımlı
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.BootStrapper.AssembliesFolder">
+            <summary>
+             DefaultServiceLocator, Toolkit.Core içerisinde tanımlı
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.BootStrapper.DefaultServiceLocator">
+            <summary>
+             DefaultServiceLocator, Toolkit.Core içerisinde tanımlı
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.BootStrapper.UnityConfigurationPath">
+            <summary>
+             UnityConfigurationPath
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.BootStrapper.JsonSerializer">
+            <summary>
+             JSON Serializer
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.BootStrapper.XmlSerializer">
+            <summary>
+             XML Serializer
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.BootStrapper.CoreSharperSerializer">
+            <summary>
+             Sharp Serializer
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.BootStrapper.IMKBExchangeRate">
+            <summary>
+             IMKB Döviz kur servisi
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.BootStrapper.FromDBExchangeRate">
+            <summary>
+             DB'den Döviz kur servisi
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.BootStrapper.FromAmadeusExchangeRate">
+            <summary>
+             DB'den Döviz kur servisi
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.BootStrapper.DataContractSerializer">
+            <summary>
+             DataContract Serializer
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.BootStrapper.SendMessage2Db">
+            <summary>
+             SendMessage2Db
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.BootStrapper.SendSms2Db">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders">
+            <summary>
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Log2CategoryName">
+            <summary>
+             Log2CategoryName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ModuleName">
+            <summary>
+            ModuleName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Log2MailFrom">
+            <summary>
+            Log2MailFrom
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.GenelYasam">
+            <summary>
+             GenelYasam
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.GenelYasam.LogoGenelYasam">
+            <summary>
+             Logo
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.GenelYasam.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.GenelYasam.UserName">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.GenelYasam.Password">
+            <summary>
+             Password
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.GenelYasam.Url">
+            <summary>
+             Url
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.GenelYasam.CurrencyConverter">
+            <summary>
+             THYCurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.GenelYasam.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.GenelYasam.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.GenelYasam.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.GenelYasam.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.GenelYasam.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.GenelYasam.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.GenelYasam.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.GenelYasam.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Erv">
+            <summary>
+             Erv Sigorta
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Erv.LogoErv">
+            <summary>
+             Logo
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Erv.AgencyNr">
+            <summary>
+             AgencyNr
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Erv.ProviderCountry">
+            <summary>
+             ProviderCountry
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Erv.Lang">
+            <summary>
+             Lang
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Erv.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Erv.UserName">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Erv.Password">
+            <summary>
+             Password
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Erv.Url">
+            <summary>
+             Url
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Erv.CurrencyConverter">
+            <summary>
+             THYCurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Erv.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Erv.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Erv.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Erv.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Erv.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Erv.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Erv.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.Erv.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.AmadeusInsurance">
+            <summary>
+             AmadeusInsurance Sigorta
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.AmadeusInsurance.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.AmadeusInsurance.Logo">
+            <summary>
+             Logo
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.AmadeusInsurance.UserName">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.AmadeusInsurance.Password">
+            <summary>
+             Password
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.AmadeusInsurance.Url">
+            <summary>
+             Url
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.AmadeusInsurance.CurrencyConverter">
+            <summary>
+             AmadeusCurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.AmadeusInsurance.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.AmadeusInsurance.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.AmadeusInsurance.CommissionPercentage">
+            <summary>
+             Yüzde komisyon
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.AmadeusInsurance.SessionTimeOutLimitAsSecond">
+            <summary>
+             Amadeus Session Alive Time Limit
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.AmadeusInsurance.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.AmadeusInsurance.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.AmadeusInsurance.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.AmadeusInsurance.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.AmadeusInsurance.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.AmadeusInsurance.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ChartisInsurance">
+            <summary>
+            ChartisInsurance Sigorta
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ChartisInsurance.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ChartisInsurance.Logo">
+            <summary>
+             Logo
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ChartisInsurance.UserName">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ChartisInsurance.Password">
+            <summary>
+             Password
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ChartisInsurance.Url">
+            <summary>
+             Url
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ChartisInsurance.CurrencyConverter">
+            <summary>
+             AmadeusCurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ChartisInsurance.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ChartisInsurance.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ChartisInsurance.CommissionPercentage">
+            <summary>
+             Yüzde komisyon
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ChartisInsurance.SessionTimeOutLimitAsSecond">
+            <summary>
+             Amadeus Session Alive Time Limit
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ChartisInsurance.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ChartisInsurance.ChartisGdsCode">
+            <summary>
+            Chartise özel GDS kodu için
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ChartisInsurance.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ChartisInsurance.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ChartisInsurance.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ChartisInsurance.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.InsuranceProviders.ChartisInsurance.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders">
+            <summary>
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Log2CategoryName">
+            <summary>
+             Log2CategoryName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.ModuleName">
+            <summary>
+            ModuleName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Log2MailFrom">
+            <summary>
+            Log2MailFrom
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.MailSubjectKey">
+            <summary>
+            MailSubjectKey
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.EnableFareBasis">
+            <summary>
+            Tur seviyesinde FareBasis alınıp alınmayacağı
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto">
+            <summary>
+             Pronto
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto.AgencyCode">
+            <summary>
+             Logo
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto.Language">
+            <summary>
+             Logo
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto.LogoGenelYasam">
+            <summary>
+             Logo
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto.UserName">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto.Password">
+            <summary>
+             Password
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto.Url">
+            <summary>
+             Url
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto.CurrencyConverter">
+            <summary>
+             THYCurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto.MappingCities">
+            <summary>
+             City tablosu için mapping değerleri
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto.MappingCountries">
+            <summary>
+             Country tablosu için mapping değerleri
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TourProviders.Pronto.EnableFareBasis">
+            <summary>
+            Tur Pronto seviyesinde FareBasis alınıp alınmayacağı
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders">
+            <summary>
+             Otel servisi işlemlerinin static property değerlerine erişimi sağlayan sınıf
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Log2CategoryName">
+            <summary>
+             Log2CategoryName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.ModuleName">
+            <summary>
+            ModuleName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Log2MailFrom">
+            <summary>
+            Log2MailFrom
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.MailSubjectKey">
+            <summary>
+            MailSubjectKey
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.TripAdvisorPlaceFileURL">
+            <summary>
+             TripAdvisor'un bize ilettiği zip dosyasının URL'si
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.TripAdvisorZippedFolderPath">
+            <summary>
+             Zipli dosyanın server üzerinde downlad edileceği path
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.TripAdvisorUnZippedFolderPath">
+            <summary>
+             Zipli dosyanın server üzerinde zipten çıkarılacağı path
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.InsuranceParameter">
+            <summary>
+            Sigorta alınıp alınmadığına dair parametreyi taşıyacak name
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.GTA">
+            <summary>
+             GTA otel servisi için ayarlar
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.GTA.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.GTA.CountryCode">
+            <summary>
+             CountryCode
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.GTA.Language">
+            <summary>
+             Language
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.GTA.ClientID">
+            <summary>
+             ClientID
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.GTA.EmailAddress">
+            <summary>
+             EmailAddress
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.GTA.Password">
+            <summary>
+             Password
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.GTA.Url">
+            <summary>
+             Url
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.GTA.NumberOfReturnedItems">
+            <summary>
+             GTANumberOfReturnedItems
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.GTA.CurrencyConverter">
+            <summary>
+             CurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.GTA.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.GTA.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.GTA.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.GTA.CommissionPercentage">
+            <summary>
+            Ürün üzerine uygulanacak komisyon oranı 
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.GTA.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.GTA.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.GTA.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.GTA.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.GTA.Direction">
+            <summary>
+             Otel'in arama yapacağı lokasyon tipini belirtir. YI/YD/All => degerlerini alir (YI:Yurtici-YD:YurtDisi-All:Tumu)
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.ApiKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.CID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.ServiceRequestCurrencyCode">
+            <summary>
+            Servisten talep edilen datanın para birimi
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.CountryCode">
+            <summary>
+             CountryCode
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.Language">
+            <summary>
+             Language
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.ClientID">
+            <summary>
+             ClientID
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.EmailAddress">
+            <summary>
+             EmailAddress
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.Password">
+            <summary>
+             Password
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.Url">
+            <summary>
+             Url
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.NumberOfReturnedItems">
+            <summary>
+             GTANumberOfReturnedItems
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.CurrencyConverter">
+            <summary>
+             CurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.BillingEmail">
+            <summary>
+             Fatura mail adresi
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.BillingAddress">
+            <summary>
+             Fatura adresi
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.BillingCity">
+            <summary>
+             Fatura şehir bilgisi
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.BillingPostalCode">
+            <summary>
+             Fatura posta kodu
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.BillingCountryCode">
+            <summary>
+             Fatura ülke kodu
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.BillingFistName">
+            <summary>
+             Fatura isim 
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.BillingLastName">
+            <summary>
+             Fatura soyad 
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.BillingCompanyName">
+            <summary>
+             Fatura şirket adı 
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.BillingWorkPhone">
+            <summary>
+             Fatura telefon 
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.CancellationDay">
+            <summary>
+             Fatura telefon 
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.CommissionPercentage">
+            <summary>
+            Ürün üzerine uygulanacak komisyon oranı 
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.LiveCreditCard">
+            <summary>
+             Uygulamada gerçek kredi kartı bilgileri kullanılıyor mu?
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.Direction">
+            <summary>
+             Otel'in arama yapacağı lokasyon tipini belirtir. YI/YD/All => degerlerini alir (YI:Yurtici-YD:YurtDisi-All:Tumu)
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Expedia.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Jolly.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Jolly.ServiceRequestCurrencyCode">
+            <summary>
+            Servisten talep edilen datanın para birimi
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Jolly.Password">
+            <summary>
+             Password
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Jolly.UserName">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Jolly.Url">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Jolly.BookUrl">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Jolly.NumberOfReturnedItems">
+            <summary>
+             jollyNumberOfReturnedItems
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Jolly.CurrencyConverter">
+            <summary>
+             CurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Jolly.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Jolly.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Jolly.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Jolly.CommissionPercentage">
+            <summary>
+            Ürün üzerine uygulanacak komisyon oranı 
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Jolly.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Jolly.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Jolly.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Jolly.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Jolly.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.HotelProviders.Jolly.Direction">
+            <summary>
+             Otel'in arama yapacağı lokasyon tipini belirtir. YI/YD/All => degerlerini alir (YI:Yurtici-YD:YurtDisi-All:Tumu)
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders">
+            <summary>
+             Sehir Turları
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.Log2CategoryName">
+            <summary>
+             Log2CategoryName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.ModuleName">
+            <summary>
+            ModuleName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.Log2MailFrom">
+            <summary>
+            Log2MailFrom
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.MailSubjectKey">
+            <summary>
+            MailSubjectKey
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.GTASightSeeing">
+            <summary>
+             GTA SightSeeing servisi için ayarlar
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.GTASightSeeing.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.GTASightSeeing.CountryCode">
+            <summary>
+             CountryCode
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.GTASightSeeing.Language">
+            <summary>
+             Language
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.GTASightSeeing.ClientID">
+            <summary>
+             ClientID
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.GTASightSeeing.EmailAddress">
+            <summary>
+             EmailAddress
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.GTASightSeeing.Password">
+            <summary>
+             Password
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.GTASightSeeing.Url">
+            <summary>
+             Url
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.GTASightSeeing.CurrencyConverter">
+            <summary>
+             CurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.GTASightSeeing.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.GTASightSeeing.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.GTASightSeeing.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.GTASightSeeing.CommissionPercentage">
+            <summary>
+            Ürün üzerine uygulanacak komisyon oranı 
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.GTASightSeeing.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.GTASightSeeing.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.GTASightSeeing.SightSeeingSearchTourLanguage">
+            <summary>
+            SightSeeingSearchTourLanguage -> None olarak gönderiliyor
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.GTASightSeeing.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.GTASightSeeing.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.SightSeeingProviders.GTASightSeeing.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders">
+            <summary>
+             Transfer
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.Log2CategoryName">
+            <summary>
+             Log2CategoryName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.ModuleName">
+            <summary>
+            ModuleName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.Log2MailFrom">
+            <summary>
+            Log2MailFrom
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.MailSubjectKey">
+            <summary>
+            MailSubjectKey
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.GTATransfer">
+            <summary>
+             GTA Transfer servisi için ayarlar
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.GTATransfer.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.GTATransfer.CountryCode">
+            <summary>
+             CountryCode
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.GTATransfer.Language">
+            <summary>
+             Language
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.GTATransfer.ClientID">
+            <summary>
+             ClientID
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.GTATransfer.EmailAddress">
+            <summary>
+             EmailAddress
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.GTATransfer.Password">
+            <summary>
+             Password
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.GTATransfer.Url">
+            <summary>
+             Url
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.GTATransfer.CurrencyConverter">
+            <summary>
+             CurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.GTATransfer.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.GTATransfer.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.GTATransfer.CommissionPercentage">
+            <summary>
+            Ürün üzerine uygulanacak komisyon oranı 
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.GTATransfer.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.GTATransfer.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.GTATransfer.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.GTATransfer.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.GTATransfer.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TransferProviders.GTATransfer.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders">
+            <summary>
+             EventGuide
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.Log2CategoryName">
+            <summary>
+             Log2CategoryName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.ModuleName">
+            <summary>
+            ModuleName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.Log2MailFrom">
+            <summary>
+            Log2MailFrom
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.MailSubjectKey">
+            <summary>
+            MailSubjectKey
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.OnlineTicketEventGuide">
+            <summary>
+             OnlineTicketEventGuide servisi için ayarlar
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.OnlineTicketEventGuide.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.OnlineTicketEventGuide.CountryCode">
+            <summary>
+             CountryCode
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.OnlineTicketEventGuide.Language">
+            <summary>
+             Language
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.OnlineTicketEventGuide.ServiceUrl">
+            <summary>
+             ServiceUrl
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.OnlineTicketEventGuide.ServiceUserName">
+            <summary>
+             ServiceUserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.OnlineTicketEventGuide.ServicePassword">
+            <summary>
+             ServicePassword
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.OnlineTicketEventGuide.ServiceRequestType">
+            <summary>
+             ServiceRequestType
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.OnlineTicketEventGuide.CurrencyConverter">
+            <summary>
+             CurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.OnlineTicketEventGuide.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.OnlineTicketEventGuide.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.OnlineTicketEventGuide.CommissionPercentage">
+            <summary>
+            Ürün üzerine uygulanacak komisyon oranı 
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.OnlineTicketEventGuide.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.OnlineTicketEventGuide.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.OnlineTicketEventGuide.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.OnlineTicketEventGuide.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.OnlineTicketEventGuide.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.EventGuideProviders.OnlineTicketEventGuide.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders">
+            <summary>
+             Uçuş servisi işlemlerinin static property değerlerine erişimi sağlayan sınıf
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.ModuleName">
+            <summary>
+            ModuleName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Log2CategoryName">
+            <summary>
+             Log2CategoryName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.CIPTypeName">
+            <summary>
+            CIP Type
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.EretailWebFareProvider">
+            <summary>
+            LowCost değeri (Amadeus uçuşlarında Amadeus provider bu ise)
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Log2MailFrom">
+            <summary>
+            Log2MailFrom
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.MailSubjectKey">
+            <summary>
+            MailSubjectKey
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.EticketInfosTokenKey">
+            <summary>
+             
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SelectedFareItem">
+            <summary>
+            Flight seviyesinde fee alınıp alınmayacağı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.OldPrice">
+            <summary>
+            Flight seviyesinde fee alınıp alınmayacağı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.FareBasisCode">
+            <summary>
+            Flight seviyesinde fee alınıp alınmayacağı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.EnableReservation">
+            <summary>
+            Flight seviyesinde rezervasyonun yapılıp yapılamayacağı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.EnableServiceFee">
+            <summary>
+            Flight seviyesinde fee alınıp alınmayacağı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.EnableFareBasis">
+            <summary>
+            Flight seviyesinde FareBasis alınıp alınmayacağı
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY">
+            <summary>
+             THY uçuş servisi için ayarlar
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.LogoTHY">
+            <summary>
+             Logo
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.LogoAnadoluJet">
+            <summary>
+             Logo
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.CorporatePin">
+            <summary>
+             CorporatePin
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.UserName">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.Password">
+            <summary>
+             Password
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.Url">
+            <summary>
+             Url
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.AnadolujetMarketingAirlineName">
+            <summary>
+             MarketingAirlineName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.THYMarketingAirlineName">
+            <summary>
+             MarketingAirlineName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.QueueForTicket">
+            <summary>
+             QueueForTicket
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.QueueForReservation">
+            <summary>
+             QueueForTicket
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.CurrencyConverter">
+            <summary>
+             THYCurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.NeedTicketPrint">
+            <summary>
+             PNR Çıktı yapılabilir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.EnableServiceFee">
+            <summary>
+             EnableServiceFee
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.ServiceModeInTest">
+            <summary>
+             Servis modu (Test=true/Prod=false)
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.THY.EnableReservation">
+            <summary>
+             EnableReservation
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Atlas">
+            <summary>
+             AtlasJet uçuş servisi için ayarlar
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Atlas.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Atlas.Logo">
+            <summary>
+             Logo
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Atlas.MarketingAirlineName">
+            <summary>
+             MarketingAirlineName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Atlas.UserName">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Atlas.Password">
+            <summary>
+             Password
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Atlas.Url">
+            <summary>
+             Url
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Atlas.Lang">
+            <summary>
+             Lang
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Atlas.CurrencyConverter">
+            <summary>
+             AtlasCurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Atlas.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Atlas.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Atlas.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Atlas.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Atlas.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Atlas.EnableServiceFee">
+            <summary>
+             EnableServiceFee
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Atlas.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Atlas.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Atlas.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Atlas.EnableReservation">
+            <summary>
+             EnableReservation
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus">
+            <summary>
+             Amadeus uçuş servisi için ayarlar
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.Logo">
+            <summary>
+             Logo
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.UserName">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.Password">
+            <summary>
+             Password
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.Url">
+            <summary>
+             Url
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.CurrencyConverter">
+            <summary>
+             AmadeusCurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.CommissionPercentage">
+            <summary>
+             Yüzde komisyon
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.SessionTimeOutLimitAsSecond">
+            <summary>
+             Amadeus Session Alive Time Limit
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.SpecificFlightInfo">
+            <summary>
+             SpecificFlightInfo
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.SpecificServiceFeeValues">
+            <summary>
+             SpecificServiceFeeValues
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.EnableSpecificServiceFeeValues">
+            <summary>
+             EnableSpecificServiceFeeValues
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.SearchTypeByProvider">
+            <summary>
+             SearchTypeByProvider
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.CorporatePin">
+            <summary>
+             CorporatePin
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.NegotiatedFareCode">
+            <summary>
+             CorporatePin
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.QueueNumber">
+            <summary>
+             QueueNumber
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.QueueCategory">
+            <summary>
+             QueueCategory
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.BookRestrictionByUrl">
+            <summary>
+             BookRestrictionByUrl
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.EnableServiceFee">
+            <summary>
+             EnableServiceFee
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.EnableFareBasis">
+            <summary>
+            Flight seviyesinde FareBasis alınıp alınmayacağı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.Amadeus.EnableReservation">
+            <summary>
+             EnableReservation
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus">
+            <summary>
+             AmadeusPegasus uçuş servisi için ayarlar
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.Logo">
+            <summary>
+             Logo
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.UserName">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.Password">
+            <summary>
+             Password
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.Url">
+            <summary>
+             Url
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.CurrencyConverter">
+            <summary>
+             AmadeusPegasusCurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.CommissionPercentage">
+            <summary>
+             Yüzde komisyon
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.SessionTimeOutLimitAsSecond">
+            <summary>
+             AmadeusPegasus Session Alive Time Limit
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.SpecificFlightInfo">
+            <summary>
+             SpecificFlightInfo
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.CorporatePin">
+            <summary>
+             CorporatePin
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.EnableServiceFee">
+            <summary>
+             EnableServiceFee
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.AmadeusPegasus.EnableReservation">
+            <summary>
+             EnableReservation
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SunExpress">
+            <summary>
+             SunExpress uçuş servisi için ayarlar
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SunExpress.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SunExpress.Logo">
+            <summary>
+             Logo
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SunExpress.UserName">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SunExpress.Password">
+            <summary>
+             Password
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SunExpress.Url">
+            <summary>
+             Url
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SunExpress.MarketingAirlineName">
+            <summary>
+             MarketingAirlineName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SunExpress.CurrencyConverter">
+            <summary>
+             SunExpressCurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SunExpress.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SunExpress.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SunExpress.ServiceRequestBILLTypeText">
+            <summary>
+             SpecialServiceRequestType sınıfının Text prop'unu set etmek için kullanılan değer. Bu payment type BILL olduğunda kullanılıyor
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SunExpress.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SunExpress.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SunExpress.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SunExpress.EnableServiceFee">
+            <summary>
+             EnableServiceFee
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SunExpress.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SunExpress.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SunExpress.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SunExpress.EnableReservation">
+            <summary>
+             EnableReservation
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SkyAirlines">
+            <summary>
+             SkyAirlines uçuş servisi için ayarlar
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SkyAirlines.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SkyAirlines.Logo">
+            <summary>
+             Logo
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SkyAirlines.UserName">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SkyAirlines.Password">
+            <summary>
+             Password
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SkyAirlines.Url">
+            <summary>
+             Url
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SkyAirlines.MarketingAirlineName">
+            <summary>
+             MarketingAirlineName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SkyAirlines.CurrencyConverter">
+            <summary>
+             SkyAirlinesCurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SkyAirlines.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SkyAirlines.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SkyAirlines.ServiceRequestBILLTypeText">
+            <summary>
+             SpecialServiceRequestType sınıfının Text prop'unu set etmek için kullanılan değer. Bu payment type BILL olduğunda kullanılıyor
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SkyAirlines.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SkyAirlines.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SkyAirlines.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SkyAirlines.EnableServiceFee">
+            <summary>
+             EnableServiceFee
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SkyAirlines.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SkyAirlines.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SkyAirlines.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.SkyAirlines.EnableReservation">
+            <summary>
+             EnableReservation
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.BoraJet">
+            <summary>
+             BoraJet uçuş servisi
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.BoraJet.LogoBoraJet">
+            <summary>
+             Logo
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.BoraJet.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.BoraJet.UserName">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.BoraJet.Password">
+            <summary>
+             Password
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.BoraJet.Url">
+            <summary>
+             Url
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.BoraJet.BoraJetMarketingAirlineName">
+            <summary>
+             MarketingAirlineName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.BoraJet.CurrencyConverter">
+            <summary>
+             BoraJetCurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.BoraJet.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.BoraJet.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.BoraJet.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.BoraJet.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.BoraJet.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.BoraJet.EnableServiceFee">
+            <summary>
+             EnableServiceFee
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.BoraJet.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.BoraJet.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.BoraJet.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.FlightProviders.BoraJet.EnableReservation">
+            <summary>
+             EnableReservation
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders">
+            <summary>
+             Araç servisi işlemlerinin static property değerlerine erişimi sağlayan sınıf
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.Log2CategoryName">
+            <summary>
+             Log2CategoryName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.ModuleName">
+            <summary>
+            ModuleName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.Log2MailFrom">
+            <summary>
+            Log2MailFrom
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.MailSubjectKey">
+            <summary>
+            MailSubjectKey
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental">
+            <summary>
+             SixtCarRentalTurkey servisi için ayarlar
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.CustomerName">
+            <summary>
+             CustomerName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.AgentNo">
+            <summary>
+             AgentNo
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.InternalUse">
+            <summary>
+             InternalUse
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.Specification">
+            <summary>
+             Specification
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.UserName">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.Password">
+            <summary>
+             Password
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.Url">
+            <summary>
+             Url
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.Lang">
+            <summary>
+             Lang
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.POS">
+            <summary>
+             POS
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.IataNo">
+            <summary>
+             IataNo
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.RateOfServiceCharge">
+            <summary>
+             IataNo
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.AuthType">
+            <summary>
+            AuthenticationType
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.CurrencyConverter">
+            <summary>
+             CurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.CustomerId">
+            <summary>
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtCarRental.CustomerId.CorporateDiscountNo">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtTurkeyCarRental">
+            <summary>
+             SixtCarRentalTurkeyTurkey servisi için ayarlar
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtTurkeyCarRental.ServiceRegisterName">
+            <summary>
+             DI içerisine register edildiği isim
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtTurkeyCarRental.UserName">
+            <summary>
+             CustomerName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtTurkeyCarRental.Password">
+            <summary>
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtTurkeyCarRental.ServiceUrl">
+            <summary>
+             ServiceUrl
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtTurkeyCarRental.AvailibilityUrl" -->
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtTurkeyCarRental.Lang">
+            <summary>
+             Lang
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtTurkeyCarRental.RateOfServiceCharge" -->
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtTurkeyCarRental.AuthType">
+            <summary>
+            AuthenticationType
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtTurkeyCarRental.CurrencyConverter">
+            <summary>
+             CurrencyConverter
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtTurkeyCarRental.DefaultCurrencySymbol">
+            <summary>
+             DefaultCurrencySymbol
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtTurkeyCarRental.DefaultSiteCulture">
+            <summary>
+             DefaultSiteCulture
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtTurkeyCarRental.LoggerName">
+            <summary>
+             Loglamanın nereye yapılacağını belirtir
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtTurkeyCarRental.Log2MailToList">
+            <summary>
+            Log2MailToList
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtTurkeyCarRental.CurrencyToStringFormat">
+            <summary>
+            Para değerlerinin gösterim formatı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtTurkeyCarRental.EnableLog">
+            <summary>
+             Loglamanın yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtTurkeyCarRental.EnableValidation">
+            <summary>
+             Validasyonunun yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.CarRentalProviders.SixtTurkeyCarRental.ServiceModeInTest">
+            <summary>
+             Servis modu (Test/Prod)
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TripAdvisor">
+            <summary>
+             TripAdvisor Configuration
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TripAdvisor.PartnerId">
+            <summary>
+             TripAdvisorPartnerId
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Promotions">
+            <summary>
+             Log işlemlerinin static property değerlerine erişimi sağlayan sınıf
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Promotions.EnableCampaign">
+            <summary>
+             Kampanya servis 
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Promotions.EnablePromotion">
+            <summary>
+             Kampanya servis 
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging">
+            <summary>
+             Log işlemlerinin static property değerlerine erişimi sağlayan sınıf
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Log2DbCategoryName">
+            <summary>
+             Log2DbCategoryName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Log2Db4Web">
+            <summary>
+             Presentasyon tarafında kullanılacak log kategorisi
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Log2Db4WebTemplate">
+            <summary>
+             Presentasyon tarafında template oluşturulma işlemi için log kategorisi
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Log2ExchangeRate">
+            <summary>
+             Döviz kuru işlemleri sırasında loglama yapacak logger
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Log2Db4DAL">
+            <summary>
+             Database erişim tarafında kullanılacak log kategorisi
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Log2EMailCategoryName">
+            <summary>
+             Database erişim tarafında kullanılacak log kategorisi
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.EnableLog">
+            <summary>
+             EnableLog
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.EnableLog2Db4WebTemplate">
+            <summary>
+             Presentasyon tarafında template oluşturulma işlemi sırasında loglama yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.EnableProvidersTimeLog">
+            <summary>
+             Servislerdeki Core sınıfların validasyonu sırasında loglama yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Exceptions">
+            <summary>
+             Exception durumlarında yapılacak Log işlemlerinin hangi katman üzerinden yapılacağını belirler
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Exceptions.Log2Db4WebExceptions">
+            <summary>
+             Log2Db4WebExceptions
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Exceptions.Log2FlightExceptionCategoryName">
+            <summary>
+             Log2FlightExceptionCategoryName
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Reservations">
+            <summary>
+             Rezervasyon durumlarında yapılacak Log işlemlerinin hangi katman üzerinden yapılacağını belirler
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Reservations.Log2Db4Reservation">
+            <summary>
+             Log2Db4Reservation
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Orders">
+            <summary>
+             Satın alma durumlarında yapılacak Log işlemlerinin hangi katman üzerinden yapılacağını belirler
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Orders.Log2Db4Orders">
+            <summary>
+             Log2Db4Orders
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.StaticDataServices">
+            <summary>
+             Satın alma durumlarında yapılacak Log işlemlerinin hangi katman üzerinden yapılacağını belirler
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.StaticDataServices.Log2Db4StaticDataServices">
+            <summary>
+             Log2Db4Orders
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Payment">
+            <summary>
+             Ödeme durumlarında yapılacak Log işlemlerinin hangi katman üzerinden yapılacağını belirler
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Payment.Log2Db4OrderPaymentUserTransaction">
+            <summary>
+             Log2Db4OrderPaymentUserTransaction
+             POS tarafında para cekme ve iade/iptal durumlarında
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Payment.Log2Db4OrderPaymentLogTransaction">
+            <summary>
+             Log2Db4OrderPaymentLogTransaction
+             POS tarafında para cekme ve iade/iptal durumlarında begin/end transaction logları için
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Payment.EnableLog2Db4OrderPaymentLogTransaction">
+            <summary>
+             EnableLog2Db4OrderPaymentLogTransaction
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Promotions">
+            <summary>
+             Promosyon işlem durumlarında yapılacak Log işlemlerinin hangi katman üzerinden yapılacağını belirler
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Promotions.Log2Db4PromotionTransaction">
+            <summary>
+             Log2Db4OrderPaymentUserTransaction
+             POS tarafında para cekme ve iade/iptal durumlarında
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Promotions.EnableLog2Db4PromotionTransaction">
+            <summary>
+             EnableLog2Db4PromotionTransaction
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Management">
+            <summary>
+             Yönetim ekranlarındaki log işlemleri için kullanılır.
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Management.LogTitleForCurrency">
+            <summary>
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Logging.Management.LogTitleForServiceFee">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Validations">
+            <summary>
+             Validasyon işlemlerinin static property değerlerine erişimi sağlayan sınıf
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Validations.EnableValidations">
+            <summary>
+             Servislerdeki validasyon sırasında loglama yapılıp yapılamayacağını belirtir
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Caching">
+            <summary>
+             Cache işlemlerinde kullanılacak key değerlerinin bulunduğu yer
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Caching.FlightHelperGetAirportByCode">
+            <summary>
+             FlightHelper.GetAirportByCode methodu içerisinde kullanılan cache key değeri
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Caching.FlightHelperGetAirlineByCode">
+            <summary>
+             FlightHelper.GetAirlineByCode methodu içerisinde kullanılan cache key değeri
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Caching.FlightHelperGetAirplaneByCode">
+            <summary>
+             FlightHelper.GetAirplaneByCode methodu içerisinde kullanılan cache key değeri
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Caching.FlightGetFlightServicesCabinClasses">
+            <summary>
+             GetFlightServicesCabinClasses methodu içerisinde kullanılan cache key değeri
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Caching.UI">
+            <summary>
+            UI Cache işlemlerinde kullanılacak key değerlerinin bulunduğu yer
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Caching.UI.JxControllerGetCities">
+            <summary>
+             FlightHelper.GetAirportByCode methodu içerisinde kullanılan cache key değeri
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Security">
+            <summary>
+             Log işlemlerinin static property değerlerine erişimi sağlayan sınıf
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Security.AuthVersion">
+            <summary>
+             Changing this value will invalidate outstanding authentication cookies
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Security.AuthCookiePersistMinutes">
+            <summary>
+             Number of minutes that the auth cookie persists in the browser.
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Security.AnonCookiePersistMinutes">
+            <summary>
+             Number of minutes that the anonymous cookie persists in the browser.
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Security.KeySalt">
+            <summary>
+             
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Security.PasswordMinRequiredNonAlphanumericCharacters">
+            <summary>
+             Password complexity validation rule
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Security.PasswordMinRequiredLength">
+            <summary>
+             Password length validation rule
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Security.FacebookConnectAppKey">
+            <summary>
+             FacebookConnect App Key
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Security.PersistAnonymousSessionsInRepository">
+            <summary>
+             Should anonymous users to database? Useful for when critical data is stored about anonymous users
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Security.SmtpEnableSsl">
+            <summary>
+             Enable or disbale SSL for SMTP communication
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Security.VerifyEmailAddresses">
+            <summary>
+             Enable or disable smtp email verification
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.Security.PortalSessionTimeOutAsSecond">
+            <summary>
+            TravelPortalContext üzerindeki PortalSession objesi için süre
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogPrefix">
+            <summary>
+             Core uygulamada loglanacak mesajın prefixini belirtir ([{0} -XXXX] formatında 0.ncı parametre)
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TravelPortalContextKey">
+            <summary>
+             TravelPortalContext
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.AnonymousUserName">
+            <summary>
+             Core uygulamada anonim user adı
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.Payment.UseProductInstallmentsPortalKey">
+            <summary>
+            Satın alma  isleminde taksitler hem karta hem de kart + urune gore gelirse hangi secimin taksitleri gozukucek,buna burdaki key ile portal kurallarında tanımlı degere bakılır
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.Payment.InstallmentContainerToken">
+            <summary>
+            InstallmentContainers
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.Payment.BankContainerToken">
+            <summary>
+            BankContainers
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.Payment.BankCardContainerToken">
+            <summary>
+            BankCardContainers
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.Payment.BankCardInstallmentsContainerToken">
+            <summary>
+            BankCardInstallmentsContainers
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.Payment.BankCardInstallmentsByProductContainerToken">
+            <summary>
+            BankCardInstallmentsContainers
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.Payment.POSPortalName">
+            <summary>
+            Servisin kullanıma açılacağı pos portal adı
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.UI">
+            <summary>
+             Core UI uygulamada loglanacak mesajın prefixini belirtir ([{0} -XXXX] formatında 0.ncı parametre)
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.UI.SiteRootKey">
+            <summary>
+            "WEB-UI SiteRootKey"
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.UI.LogMessagePrefix">
+            <summary>
+            "WEB-UI"
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.UI.TimeLogPrefix">
+            <summary>
+            "[{0}-TimeLog]", LogMessagePrefix
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.UI.CurrentSessionKey">
+            <summary>
+             Core UI uygulamada session'a atılacak custom session key'i
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.UI.CurrentSessionIdKey">
+            <summary>
+             Core UI uygulamada session'a atılacak travelportalsession'a ait sessionID key'i
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.UI.CDNNames">
+            <summary>
+             SiteHost
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns">
+            <summary>
+            Loglama yapılan tablolarda extra kolonların EntLib Listener larda tanımlansında kullanılan keyler.
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.ModulesLogData.ReferenceNumber">
+            <summary>
+             SearchId
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.ModulesLogData.SourceType">
+            <summary>
+             SourceType
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.ModulesLogData.ModuleId">
+            <summary>
+             ModuleId
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.ModulesLogData.ModuleItemId">
+            <summary>
+             ModuleItemId
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.ModulesLogData.ProcessType">
+            <summary>
+             ProcessType
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.ModulesLogData.ProcessTitle">
+            <summary>
+             ProcessType
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.ModulesLogData.QuarableXmlData">
+            <summary>
+             QuarableXmlData
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.ModulesLogData.OriginalData">
+            <summary>
+             Data
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.WebAppLogData.SearchId">
+            <summary>
+             SearchId
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.WebAppLogData.AffiliateCode">
+            <summary>
+             AffiliateCode
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.WebAppLogData.UserName">
+            <summary>
+             SessionId
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.WebAppLogData.SessionId">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.OrdersLogData.AffiliateCode">
+            <summary>
+             AffiliateCode
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.OrdersLogData.UserName">
+            <summary>
+             SessionId
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.OrdersLogData.SessionId">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.OrdersLogData.BasketWebRefID">
+            <summary>
+             BasketWebRefID
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.OrdersLogData.ItemType">
+            <summary>
+             ItemType
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.ResevationsLogData.AffiliateCode">
+            <summary>
+             AffiliateCode
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.ResevationsLogData.UserName">
+            <summary>
+             SessionId
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.ResevationsLogData.SessionId">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.ResevationsLogData.BasketWebRefID">
+            <summary>
+             BasketWebRefID
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.ResevationsLogData.ItemType">
+            <summary>
+             ItemType
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.OrderPaymentTransactionsLogData.AffiliateCode">
+            <summary>
+             AffiliateCode
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.OrderPaymentTransactionsLogData.UserName">
+            <summary>
+             SessionId
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.OrderPaymentTransactionsLogData.SessionId">
+            <summary>
+             UserName
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.OrderPaymentTransactionsLogData.BasketWebRefID">
+            <summary>
+             BasketWebRefID
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.LogColumns.OrderPaymentTransactionsLogData.VPOSSalesTransactionId">
+            <summary>
+             VPOSSalesTransactionId
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys">
+            <summary>
+            Template'lere gönderilen key'ler buraya
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.ETicketInfoDataKey">
+            <summary>
+            Uçuş için template'lere gönderilen key'ler buraya
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.ETicketInfoOverrideRoot">
+            <summary>
+            Eticket gösteriminde 
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.SeatChoice">
+            <summary>
+            SeatChoice
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.MealChoice">
+            <summary>
+            MealChoice
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.AnimalChoice">
+            <summary>
+            AnimalChoice
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.BicycleChoice">
+            <summary>
+            BicycleChoice
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.MeetAndAssistChoice">
+            <summary>
+            MeetAndAssistChoice
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.WhellChair">
+            <summary>
+            WhellChair
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.SnowboardChoice">
+            <summary>
+            SnowboardChoice
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.SnowboardWeightChoice">
+            <summary>
+            SnowboardWeightChoiceChoice
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.Snowboard_LengthChoice">
+            <summary>
+            Snowboard_LengthChoiceChoice
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.SurfboardChoice">
+            <summary>
+            SurfboardChoice
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.Surfboard_WeightChoice">
+            <summary>
+            Surfboard_WeightChoice
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.Surfboard_WidthChoice">
+            <summary>
+            Surfboard_Widthhoice
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.Surfboard_HeightChoice">
+            <summary>
+            Surfboard_Heighthoice
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.VisaNumber">
+            <summary>
+            VisaNumber
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.VisaPlaceOfBirth">
+            <summary>
+            PlaceOfBirth
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.VisaDateOfIssue">
+            <summary>
+            DateOfIssue
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.VisaPlaceOfIssue">
+            <summary>
+            PlaceOfIssue
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.VisaCountry">
+            <summary>
+            VisaCountry
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.PassportNumber">
+            <summary>
+            PassportNumber
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.PassportEndDate">
+            <summary>
+            PassportEndDate
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.SpecialRequests.PassportCountry">
+            <summary>
+            PassportCountry
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.MilesCard.FFCardCode">
+            <summary>
+            FFCardCode
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.Flight.Amadeus.MilesCard.FFCardNo">
+            <summary>
+            FFCardNo
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.TemplateKeys.EventGuide.OnlineTicket.SpecialRequests.ShippingInfo_AddressType">
+            <summary>
+             Kargo için adres tipi hotel veya residency
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.Membership">
+            <summary>
+            Membership değerleri
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.Membership.MembershipPortalName">
+            <summary>
+            Servisin kullanıma açılacağı Membership portal adı
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.Membership.RoleCode">
+            <summary>
+            Kaydedilecek Kullanıcıların otomatik atanacak rol code
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.Membership.ProfileCode">
+            <summary>
+            Kaydedilecek Kullanıcıların otomatik atanacak profil code
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.Promotion">
+            <summary>
+            Promotion değerleri
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.Promotion.PromotionPortalName">
+            <summary>
+            Servisin kullanıma açılacağı Promotion portal adı
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.Promotion.PromotionFilterTemplateFilePath">
+            <summary>
+            Promosyon template'lerinin root klasörü.
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.Promotion.ModuleMapFileName">
+            <summary>
+            ModuleMaps
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.HelperLibrary.Constants.ConstantHelper.TravelPortalCore.Promotion.PromotionFilterTemplateFileFormat">
+            <summary>
+            Promosyon template'lerinin file name formatını belirtir.
+            File Format:CampaignFilterTemplate.{Module Name}.ctf
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.HelperLibrary.CultureUtil.Culture.ChangeCurrencyDecimalSeparator(System.String,System.Globalization.CultureInfo,System.Globalization.CultureInfo)">
+            <summary>
+             ChangeCurrencyDecimalSeparator
+            </summary>
+            <param name="value"></param>
+            <param name="fromCulture"></param>
+            <param name="toCulture"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

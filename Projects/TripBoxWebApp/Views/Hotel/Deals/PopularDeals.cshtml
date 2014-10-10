@@ -1,0 +1,93 @@
+﻿@model List<LOGI.Core.Domain.Model.Hotel.Deals.PopularDealModel>
+
+<h2 class="header-a">Popular deal</h2>
+<div class="news-d">
+    @foreach (var deal in this.Model)
+    {
+        <article>
+            <header>
+                <figure><img src="@Url.Content(deal.ImgUrl)" alt="Placeholder" width="300" height="160"></figure>
+                <h3><a href="#">@deal.Title</a></h3>
+                <p><span class="rating-a a">@deal.RateValue/5</span> ( @deal.RateCount Ratting )</p>
+                <p class="scheme-i"><span>@deal.Currency</span>@deal.Total</p>
+            </header>
+            <p>@deal.Subtitle <a class="link">View Details</a></p>
+            <footer>
+                <p>@deal.Location</p>
+            </footer>
+        </article>
+    }
+
+@*    <article>
+        <header>
+            <figure><img src="~/Content/temp/300x160.gif" alt="Placeholder" width="300" height="160"></figure>
+            <h3><a href="#">Sheraton hanoi Hotel</a></h3>
+            <p><span class="rating-a a">0/5</span> ( 20 Ratting )</p>
+            <p class="scheme-i"><span>$</span>500</p>
+        </header>
+        <p>Lorem ipsum dolor sit saelas met, consas ecttur ads ipi deese cing elit. Mauris fring illa bibe endums leo consec. <a class="link">View Details</a></p>
+        <footer>
+            <p>Sheraton Hotel - Hanoi, Vietnam</p>
+        </footer>
+    </article>
+    <article>
+        <header>
+            <figure><img src="~/Content/temp/300x160(1).gif" alt="Placeholder" width="300" height="160"></figure>
+            <h3><a href="#">Sheraton hanoi Hotel</a></h3>
+            <p><span class="rating-a b">1/5</span> ( 20 Ratting )</p>
+            <p class="scheme-i"><span>$</span>500</p>
+        </header>
+        <p>Consas ecttur ads ipi deese cing elit. Mauris fring illa bibe endums leo consec. Lorem ipsum dolor sit saelas met<a class="link">View Details</a></p>
+        <footer>
+            <p>Sheraton Hotel - Hanoi, Vietnam</p>
+        </footer>
+    </article>
+    <article>
+        <header>
+            <figure><img src="~/Content/temp/300x160(2).gif" alt="Placeholder" width="300" height="160"></figure>
+            <h3><a href="#">Sheraton hanoi Hotel</a></h3>
+            <p><span class="rating-a c">2/5</span> ( 20 Ratting )</p>
+            <p class="scheme-i"><span>$</span>500</p>
+        </header>
+        <p>Mauris fring illa bibe endums leo consec. Lorem ipsum dolor sit saelas met, sas ecttur ads ipi deese cing elit. <a class="link">View Details</a></p>
+        <footer>
+            <p>Sheraton Hotel - Hanoi, Vietnam</p>
+        </footer>
+    </article>
+    <article>
+        <header>
+            <figure><img src="~/Content/temp/300x160(3).gif" alt="Placeholder" width="300" height="160"></figure>
+            <h3><a href="#">Sheraton hanoi Hotel</a></h3>
+            <p><span class="rating-a d">3/5</span> ( 20 Ratting )</p>
+            <p class="scheme-i"><span>$</span>500</p>
+        </header>
+        <p>Lorem ipsum dolor sit saelas met, consas ecttur ads ipi deese cing elit. Mauris fring illa bibe endums leo consec. <a class="link">View Details</a></p>
+        <footer>
+            <p>Sheraton Hotel - Hanoi, Vietnam</p>
+        </footer>
+    </article>
+    <article>
+        <header>
+            <figure><img src="~/Content/temp/300x160(4).gif" alt="Placeholder" width="300" height="160"></figure>
+            <h3><a href="#">Sheraton hanoi Hotel</a></h3>
+            <p><span class="rating-a e">4/5</span> ( 20 Ratting )</p>
+            <p class="scheme-i"><span>$</span>500</p>
+        </header>
+        <p>Mauris fring illa bibe endums leo consec. Lorem ipsum dolor sit saelas met, sas ecttur ads ipi deese cing elit. <a class="link">View Details</a></p>
+        <footer>
+            <p>Sheraton Hotel - Hanoi, Vietnam</p>
+        </footer>
+    </article>
+    <article>
+        <header>
+            <figure><img src="~/Content/temp/300x160(5).gif" alt="Placeholder" width="300" height="160"></figure>
+            <h3><a href="#">Sheraton hanoi Hotel</a></h3>
+            <p><span class="rating-a f">5/5</span> ( 20 Ratting )</p>
+            <p class="scheme-i"><span>$</span>500</p>
+        </header>
+        <p>Lorem ipsum dolor sit saelas met, consas ecttur ads ipi deese cing elit. Mauris fring illa bibe endums leo consec. <a class="link">View Details</a></p>
+        <footer>
+            <p>Sheraton Hotel - Hanoi, Vietnam</p>
+        </footer>
+    </article>*@
+</div>

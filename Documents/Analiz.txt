@@ -1,0 +1,127 @@
+﻿http://themeforest.net/item/atourist-hotel-travel-booking-site-template/full_screen_preview/4541621
+
+
+booking engine
+travel
+portal
+trip
+reservation
+assistant
+
+tripassistant
+tripbox
+tripreserver
+tripsearcher
+
+Links:
+
+http://www.upbooking.com/en/category/page_standard-booking-engine-free_212.php
+
+
+Amadeus entegrasyonu
+	- Arama
+		- Tek yön
+		- Gidiş-dönüş
+		- Çoklu destinason
+		- Takvim
+	- Fiyat Detay
+	- Uçuş kural sorgulama
+	- Rezervasyon
+	- Rezervasyonu satın alma
+	- Direk (rezervasyonsuz) satın alma
+	- Pnr sorgulama
+	- Eticket görüntüleme
+	- Rezervasyon iptal
+	s/n: SSFC-ONLN-AADI-OOBZ-MSTW
+
+Otel entegrasyonu
+	- Arama
+	- Detay
+	- Satın Alma
+	- Voucher
+
+Siparişleri tutma
+	- Alışverişlerim
+	- Rezervasyonlarım
+
+Üyelik
+	- Yeni üye
+	- Üye güncelleme / silme / pasif etme 
+	- Fatura adres kayıt
+	- Uçuş yolcu bilgileri kayıt
+	
+POS
+
+Banner Management
+	- Arama loading
+	- Sonuç ekranları
+	- Sayfalar belli bölmeler
+
+	
+UÇAK	
+	
+POST /B2BGateway/connect/uAPI/AirService/SystemService HTTP/1.1
+Content-Type: text/xml
+User-Agent: Travelport API Test Tool
+Authorization: Basic VW5pdmVyc2FsIEFQSS91QVBJLTM4MTE4Nzc3NjpZWG43WFp6eXBOcVBxZTRBOE1YcEFzc0tG
+Host: americas-uapi.copy-webservices.travelport.com
+Content-Length: 289
+Accept-Encoding: gzip
+Connection: Keep-Alive
+
+HTTP/1.1 200 OK
+X-Backside-Transport: OK OK
+Connection: Keep-Alive
+Server: Apache-Coyote/1.1
+X-Powered-By: Travelport
+sslterm: 216.113.138.225%3A443%2CAMERICAS-UAPI.COPY_443
+Content-Type: text/xml
+Date: Fri, 02 Aug 2013 18:45:35 GMT
+X-Client-IP: 10.7.224.15
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+Content-Length: 229
+	
+	
+	
+<LowFareSearchReq TraceId="abc-123" AuthorizedBy="mossdev" TargetBranch="P105348" xmlns="http://www.travelport.com/schema/air_v23_0">
+			<BillingPointOfSaleInfo OriginApplication="UAPI" xmlns="http://www.travelport.com/schema/common_v20_0" />
+			<SearchAirLeg>
+				<SearchOrigin>
+					<CityOrAirport Code="IST" xmlns="http://www.travelport.com/schema/common_v20_0" />
+				</SearchOrigin>
+				<SearchDestination>
+					<CityOrAirport Code="AYT" xmlns="http://www.travelport.com/schema/common_v20_0" />
+				</SearchDestination>
+				<SearchArvTime PreferredTime="2013-11-26" />
+			</SearchAirLeg>
+			<AirSearchModifiers />
+			<SearchPassenger Code="ADT" PricePTCOnly="false" xmlns="http://www.travelport.com/schema/common_v20_0" />
+		</LowFareSearchReq>	
+		
+		
+https://support.travelport.com/webhelp/uapi/uAPI.htm		
+http://testws.galileo.com/GWSSample/Pages/MainPage/MainFrame.aspx
+
+In the Airport child, for city/airport codes that are the same, the IATA code is processed as an airport code. For example, 'LAX' is processed as Los Angeles International airport, but other airports in the Los Angeles metro area are NOT included in the request.		
+		
+OTEL
+Registration Successful
+
+You have successfully registered as DevExpedia.
+
+Your API keys are:
+
+EAN HOTEL API
+
+Key: 4tz5j5mrsydbfupmyr3wu8v5
+
+Application: ExpediaTestApp Key: 4tz5j5mrsydbfupmyr3wu8v5 Shared Secret: UYAmPtgj Status: active Registered: 22 seconds ago
+Key Rate Limits
+5	Calls per second
+500	Calls per hour
+
+http://devhub.ean.com/V3sandbox/index.asp
+http://devhub.ean.com/apitester/index.html
+http://api.ean.com/ean-services/ws/hotel/v3?wsdl&apiKey=4tz5j5mrsydbfupmyr3wu8v5
+		

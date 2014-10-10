@@ -1,0 +1,12 @@
+H:\Masallah\Projects\SeyahatPlatformu\Output\Debug\LOGI.Model.Hotel.XML
+H:\Masallah\Projects\SeyahatPlatformu\Output\Debug\LOGI.Model.Hotel.dll
+H:\Masallah\Projects\SeyahatPlatformu\Output\Debug\LOGI.Model.Hotel.pdb
+H:\Masallah\Projects\SeyahatPlatformu\Projects\LOGI.Model.Hotel\obj\Debug\LOGI.Model.Hotel.csprojResolveAssemblyReference.cache
+H:\Masallah\Projects\SeyahatPlatformu\Projects\LOGI.Model.Hotel\obj\Debug\LOGI.Model.Hotel.dll
+H:\Masallah\Projects\SeyahatPlatformu\Projects\LOGI.Model.Hotel\obj\Debug\LOGI.Model.Hotel.pdb
+H:\Masallah\Projects\SeyahatPlatformu\LOGI.Framework\Output\Debug\LOGI.Model.Hotel.XML
+H:\Masallah\Projects\SeyahatPlatformu\LOGI.Framework\Output\Debug\LOGI.Model.Hotel.dll
+H:\Masallah\Projects\SeyahatPlatformu\LOGI.Framework\Output\Debug\LOGI.Model.Hotel.pdb
+H:\Masallah\Projects\SeyahatPlatformu\LOGI.Framework\Projects\LOGI.Model.Hotel\obj\Debug\LOGI.Model.Hotel.csprojResolveAssemblyReference.cache
+H:\Masallah\Projects\SeyahatPlatformu\LOGI.Framework\Projects\LOGI.Model.Hotel\obj\Debug\LOGI.Model.Hotel.dll
+H:\Masallah\Projects\SeyahatPlatformu\LOGI.Framework\Projects\LOGI.Model.Hotel\obj\Debug\LOGI.Model.Hotel.pdb

@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>aTourist Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;aTourist&rdquo; Documentation by &ldquo;Templatation [Templatation.com]&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;aTourist &rdquo;</h1>
+		
+		<div class="borderTop">
+		  <div class="span-6 colborder info prepend-1">
+            <p class="prepend-top"> <strong> <br>
+              By: Templatation<br>
+              Email: elitedinesh@gmail.com</strong> </p>
+	      </div>
+		  <!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0"> If you have any questions that are beyond the scope of this help file, please feel free to email via my TF profile page <a href="http://themeforest.net/user/Templatation" target="_blank">http://themeforest.net/user/Templatation</a>. Thanks so much!</p>
+			</div>
+	  </div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#a">Installation </a></li>
+			<li><a href="#b">Edit template files</a></li>
+			<li><a href="#c">Editing the logo</a></li>
+			<li><a href="#d">Editing Big Background image</a></li>
+			<li><a href="#e">Editing Sections in homepage</a></li>
+			<li><a href="#f">Editing "Book Now" section</a></li>
+			<li><a href="#g">Editing "Hotel-list" , "Hotel-Details", and "other Templates"</a></li>
+			<li><a href="#h">Changing Footer Links</a></li>
+			<li><a href="#i">Contact us form</a></li>
+			<li><a href="#j">Credits</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="a"><strong>A) Installation </strong> - <a href="#toc">top</a></h3>
+		<p>Upload relevant files and folders from your download through FTP using a file manager program <em>(like 'Filezilla')</em> to your webroot, or use your webhost's manager to do the same.<br />You are ready to go!</p>
+
+		<hr>
+		
+		<h3 id="b"><strong>B) Edit template files </strong> - <a href="#toc">top</a></h3>
+		<p>Open HTML files and there you can see tags and sections in the source code where you can edit or change as per your requirements. For e.g. In contact.html source code, you can find and easily change text labels inside this HTML code tag &#60;article id=“content” class=“cols-b”&#62; as you need.</p>
+
+		<hr>
+
+		<h3 id="c"><strong>C) Editing the logo </strong> - <a href="#toc">top</a></h3>
+		<p>Logo comprises of logo.png image and some text. Text is written in the header file. So, there are two ways to edit logo.png image, you can:
+		<ol>
+			<li>Replace images/logo.png with your logo image. Please pay attention to dimensions. (default is width=“176” height=“50”</li>
+			<li>Alternatively, you can edit styles/screen.css and change logo image filename to your preferred instead of logo.png</li>
+		</ol>
+		Line no 27 in screen.css is:<br /> <strong>#top h1 a { display: block; overflow: hidden; position: relative; left: 1px; width: 176px; height: 100%; background: url(../images/logo.png) no-repeat; text-indent: -3000em; }</strong><br />You can adjust background values and check to see if they suit your expectations right.</p>
+
+		<hr>
+
+		<h3 id="d"><strong>D) Editing Big Background image </strong> - <a href="#toc">top</a></h3>
+		<p>To edit or change big background image and text description on homepage, you have to open up 'index.html' <em>or index-b.html</em> and locate this HTML tag &#60;figure class=“image-c”&#62;…&#60;/figure&#62;</p>
+		<p>Then change or edit image source path or titles and descriptions inside that tag as you want.</br />Note: Expected image dimensions width=“1260” height=“754”</p>
+
+		<hr>
+		
+		<h3 id="e"><strong>E) Editing Sections in homepage </strong> - <a href="#toc">top</a></h3>
+		<p>To edit or modify content for sections inside index-b.html you have to open it up in a text-editor and locate this HTML tag &#60;section id=“content”&#62;…&#60;/section&#62;</p>
+		
+		<p>All section content is editable from there and you can change all titles and descriptions situated inside the above mentioned HTML tag as you want.</p>
+		<p>Image dimensions for section “Hot Deal Of The Week” are width=“465” height=“201”<br />Image dimensions for section “Popular Deal” are width=“300” height=“160”</p>
+
+		<hr>
+		
+		<h3 id="f"><strong>F) Editing "Book Now" section </strong> - <a href="#toc">top</a></h3>
+		<p>To edit or change options in the “Book Now” white box section on both homepage options, open index.html <em>or index-b.html</em> in a text-editor and locate the &#60;form action=”./” method=“post” class=“form-c”&#62; HTML tag.</p>
+		<p>Here you can change the titles like <strong>“What?”</strong> or <strong>“Where?”</strong> to your preference. Also you can easily change the list items, options, labels or input field text.<br />To successfully send chosen information by user when he clicks “Proceed” button, please remember to use appropriate method inside the &#60;form action=”./” method=“post” class=“form-c”&#62; tag.</p>
+
+		<hr>
+		
+		<h3 id="g"><strong>G) Editing "Hotel-list" , "Hotel-Details", and "other Templates" </strong> - <a href="#toc">top</a></h3>
+		<p>The featured slider (image and text) <strong>(applicable on few pages only)</strong> can be edited and changed by opening up "hotel-list.html" and looking inside this &#60;div class=“slider-a”&#62; HTML tag.</p>
+		<p>List of hotels in "hotel-list.html" can be changed by locating this main HTML tag &#60;div class=“news-a”&#62;.<br />Here you can change &#60;h2&#62; titles, image source paths and its description.<br /> <em>Note: The thumbnail image dimensions for this are width="128" height="102"</em></p>
+		All other similar kind of templates too can be edited in similar way.<br /> <em>Note: Please be careful when applying appropriate &#60;a href="#"&#62;link name&#60;/a&#62;links wherever required.</em></p>
+
+		<hr>
+		
+		<h3 id="h"><strong>H) Contact page edits </strong> - <a href="#toc">top</a></h3>
+		<p>The contact us form with aTourist is functional and google map is integrated too. To edit them to your details , please do following :</p>
+		<p>To edit contact us form details…please open email-action.php and on line 3 , please replace 'youremail@email.com' with your email address , be careful about commas.</p>
+		<p>On line 27 of same file , you will find '&copy; 2013 http://aTourist.com' , please change it according to your needs.</p>
+		<p>Change Google Map's marker location</p>
+		<p>Open up '<strong>scripts.js</strong>' from folder javascipt. on line 214 : Search for this line <strong>$('#map').gmapembedd('London'); </strong>and edit these latitude and longitude co-ordinates(for example : $('#map').gmapembedd('40.765266,-73.973007'); ). </p>
+		<p>Use http://www.mapcoordinates.net/en to find co-ordinates</p>
+
+		<hr>
+		<h3 id="i"><strong>I) Changing Footer Links </strong> - <a href="#toc">top</a></h3>
+		<p>In index.html <em>or index-b.html</em> you'll find this HTML tag &#60;footer id="footer"&#62;</p>
+		<p>Everything inside it has content sections for the footer (i.e. 4 columns and copyright line)</p>
+		<p>Please note to <strong>make consistent changes</strong> in footer for all other relevant html template files</p>
+
+		<hr>
+
+		<h3 id="j"><strong>I) Credits </strong> - <a href="#toc">top</a></h3>
+
+		<p>Fonts used are "Raleway", "Lithos", "Droid Sans" and "Playball".  </p>
+
+		<hr>
+
+		<p>&nbsp;</p>
+
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+</div><!-- end div .container -->
+</body>
+</html>

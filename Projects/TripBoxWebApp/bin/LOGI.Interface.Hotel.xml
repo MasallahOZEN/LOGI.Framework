@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LOGI.Interface.Hotel</name>
+    </assembly>
+    <members>
+        <member name="T:LOGI.Core.Interface.Hotel.IHotelService">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

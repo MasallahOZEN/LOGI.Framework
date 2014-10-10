@@ -1,0 +1,13 @@
+﻿@model TripBoxWebApp.Models.Home.HeaderSearchModel
+
+@using (Html.BeginForm("SearchSite","Home",FormMethod.Post,new {@id="search"}))
+{
+    <fieldset>
+        <legend>Search</legend>
+        <p>
+            <label for="sa">Search</label>
+            @Html.TextBoxFor(x=>x.SearchText,new {@id="sa",@name="sa",@required=true})
+            <button type="submit" name="SearchSite">Submit</button>
+        </p>
+    </fieldset>
+}

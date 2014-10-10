@@ -1,0 +1,12 @@
+H:\Masallah\Projects\SeyahatPlatformu\Output\Debug\LOGI.Interface.Hotel.XML
+H:\Masallah\Projects\SeyahatPlatformu\Output\Debug\LOGI.Interface.Hotel.dll
+H:\Masallah\Projects\SeyahatPlatformu\Output\Debug\LOGI.Interface.Hotel.pdb
+H:\Masallah\Projects\SeyahatPlatformu\Projects\LOGI.Interface.Hotel\obj\Debug\LOGI.Interface.Hotel.dll
+H:\Masallah\Projects\SeyahatPlatformu\Projects\LOGI.Interface.Hotel\obj\Debug\LOGI.Interface.Hotel.pdb
+H:\Masallah\Projects\SeyahatPlatformu\Projects\LOGI.Interface.Hotel\obj\Debug\LOGI.Interface.Hotel.csprojResolveAssemblyReference.cache
+H:\Masallah\Projects\SeyahatPlatformu\LOGI.Framework\Output\Debug\LOGI.Interface.Hotel.XML
+H:\Masallah\Projects\SeyahatPlatformu\LOGI.Framework\Output\Debug\LOGI.Interface.Hotel.dll
+H:\Masallah\Projects\SeyahatPlatformu\LOGI.Framework\Output\Debug\LOGI.Interface.Hotel.pdb
+H:\Masallah\Projects\SeyahatPlatformu\LOGI.Framework\Projects\LOGI.Interface.Hotel\obj\Debug\LOGI.Interface.Hotel.csprojResolveAssemblyReference.cache
+H:\Masallah\Projects\SeyahatPlatformu\LOGI.Framework\Projects\LOGI.Interface.Hotel\obj\Debug\LOGI.Interface.Hotel.dll
+H:\Masallah\Projects\SeyahatPlatformu\LOGI.Framework\Projects\LOGI.Interface.Hotel\obj\Debug\LOGI.Interface.Hotel.pdb

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LOGI.Model.Hotel</name>
+    </assembly>
+    <members>
+        <member name="T:LOGI.Core.Domain.Model.Hotel.Deals.PopularDealModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:LOGI.Core.Domain.Model.Hotel.HotelItem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Hotel.HotelItem.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Hotel.HotelItem.ImgUrl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Hotel.HotelItem.Title">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Hotel.HotelItem.RateValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Hotel.HotelItem.RateCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Hotel.HotelItem.Total">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Hotel.HotelItem.Currency">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Hotel.HotelItem.Subtitle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Hotel.HotelItem.Location">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,97 @@
+﻿  <!--
+  Desc        :LOG Bilisim, Seyahat Portali Framework
+  Namespace   :LOGI.Core.{NAME}
+  Project Name:LOGI.{NAME}
+    -->
+<Architecture>
+  
+  <!--
+  Desc        :
+  Namespace   :LOGI.Core.{NAME}
+  Project Name:LOGI.Core.{NAME}
+  -->
+  <Application>
+    
+    <!--
+    Desc        :LOGI Interface tanımları
+    Namespace   :LOGI.Core.Interface.{NAME}
+    Project Name:LOGI.Interface.{NAME}
+    -->    
+    <Interface>
+      <!--
+      Desc        :LOGI Otel Seması
+      Namespace   :LOGI.Core.Interface.Hotel
+      Project Name:LOGI.Interface.Hotel
+      -->
+      <Hotel>
+        
+      </Hotel>
+    </Interface>
+    
+  </Application>
+  
+  <!--
+  Desc        :LOGI Model ve Repo tanımları
+  Namespace   :LOGI.Core.Domain.{NAME}
+  Project Name:LOGI.Domain.{NAME}
+  -->
+  <Domain>
+    <!--
+    Desc        :LOGI Model ve Repo tanımları
+    Namespace   :LOGI.Core.Domain.Model.{NAME}
+    Project Name:LOGI.Domain.Model.{NAME}
+    -->
+    <Model>
+        
+      <!--
+      Desc        :LOGI Common Model
+      Namespace   :LOGI.Core.Domain.Model.Common
+      Project Name:LOGI.Model.Common
+      -->
+      <Common>
+
+      </Common>
+
+      <!--
+      Desc        :LOGI Otel Seması
+      Namespace   :LOGI.Core.Domain.Model.Hotel
+      Project Name:LOGI.Model.Hotel
+      -->
+      <Hotel>
+
+      </Hotel>
+    </Model>
+  </Domain>
+
+  <!--
+  Desc        :LOGI Infrastructure tanımları
+  Namespace   :LOGI.Core.Infrastructure.{NAME}
+  Project Name:LOGI.Inf.{NAME}
+  -->
+  <Infrastructure>
+    <!--
+    Desc        :LOGI Infrastructure Provider tanımları
+    Namespace   :LOGI.Core.Infrastructure.Provider.{NAME}
+    Project Name:LOGI.Inf.Prv.{NAME}
+    -->
+    <Provider>
+
+      <!--
+      Desc        :LOGI Otel data için entegrasyonu 
+      Namespace   :LOGI.Core.Infrastructure.Provider.Hotel
+      Project Name:LOGI.Inf.Prv.Hotel.{NAME}
+      -->
+      <Hotel>
+        <!--
+        Desc        :LOGI Dummy data için Otel entegrasyonu 
+        Namespace   :LOGI.Core.Infrastructure.Provider.Hotel.DummyHotel
+        Project Name:LOGI.Inf.Prv.Hotel.DummyHotel
+        -->
+        <DummyHotel>
+
+        </DummyHotel>
+      </Hotel>
+    </Provider>
+  </Infrastructure>
+  
+</Architecture>

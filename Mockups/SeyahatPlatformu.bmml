@@ -1,0 +1,154 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="829" measuredH="616" mockupW="696" mockupH="613">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="133" y="3" w="696" h="613" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//www.ulviturizm.com/index.php</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::TabBar" x="148" y="86" w="666" h="126" measuredW="150" measuredH="100" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <markup>true</markup>
+        <selectedIndex>0</selectedIndex>
+        <text>U%E7ak%2C%20Otel</text>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="161" y="125" w="-1" h="-1" measuredW="51" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Nereden</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="344" y="125" w="-1" h="-1" measuredW="42" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Nereye</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::ComboBox" x="217" y="125" w="-1" h="-1" measuredW="78" measuredH="24" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Istanbul</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::ComboBox" x="393" y="127" w="-1" h="-1" measuredW="99" measuredH="24" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Amsterdam</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="166" y="174" w="-1" h="-1" measuredW="36" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Kalk%u0131%u015F</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::DateChooser" x="217" y="172" w="-1" h="-1" measuredW="90" measuredH="25" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20%20/%20%20/%20%20%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Label" x="344" y="176" w="-1" h="-1" measuredW="30" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Var%u0131%u015F</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::DateChooser" x="393" y="172" w="-1" h="-1" measuredW="90" measuredH="25" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20%20/%20%20/%20%20%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::RadioButton" x="652" y="116" w="100" h="22" measuredW="46" measuredH="22" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>up</state>
+        <text>Gidi%u015F</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::RadioButton" x="707" y="116" w="100" h="22" measuredW="98" measuredH="22" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>up</state>
+        <text>Gidi%u015F%20/%20D%F6n%FC%u015F</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::RadioButton" x="708" y="138" w="100" h="22" measuredW="44" measuredH="22" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>up</state>
+        <text>Multi</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="517" y="125" w="-1" h="-1" measuredW="47" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Yeti%u015Fkin</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::ComboBox" x="570" y="123" w="-1" h="-1" measuredW="36" measuredH="24" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Label" x="519" y="151" w="-1" h="-1" measuredW="38" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%C7ocuk</text>
+      </controlProperties>
+    </control>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::ComboBox" x="570" y="153" w="-1" h="-1" measuredW="38" measuredH="24" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>0</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Label" x="519" y="178" w="-1" h="-1" measuredW="37" measuredH="21" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Bebek</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::ComboBox" x="570" y="180" w="-1" h="-1" measuredW="38" measuredH="24" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>0</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::Label" x="616" y="153" w="-1" h="-1" measuredW="27" measuredH="21" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>2-12</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Label" x="618" y="180" w="-1" h="-1" measuredW="21" measuredH="21" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>0-2</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Image" x="148" y="219" w="666" h="138" measuredW="1024" measuredH="683" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../../../Dropbox/Dropbox/Dropbox/Photos/Sample%2520Album/Boston%2520City%2520Flow.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Button" x="707" y="171" w="84" h="27" measuredW="43" measuredH="27" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ara</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Canvas" x="154" y="510" w="204" h="70" measuredW="100" measuredH="70" zOrder="23" locked="false" isInGroup="-1"/>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Canvas" x="380" y="510" w="204" h="70" measuredW="100" measuredH="70" zOrder="24" locked="false" isInGroup="-1"/>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Canvas" x="600" y="510" w="204" h="70" measuredW="100" measuredH="70" zOrder="25" locked="false" isInGroup="-1"/>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::StickyNote" x="169" y="510" w="164" h="66" measuredW="109" measuredH="123" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20comment</text>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::StickyNote" x="399" y="512" w="164" h="66" measuredW="109" measuredH="123" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20comment</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::StickyNote" x="169" y="510" w="164" h="66" measuredW="109" measuredH="123" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20comment</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::StickyNote" x="620" y="510" w="164" h="66" measuredW="109" measuredH="123" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20comment</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::TextArea" x="170" y="378" w="614" h="105" measuredW="200" measuredH="140" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>seyahatname%C7al%u0131%u015Fman%u0131n%20En%20G%FCzel%20Y%F6ntemi...%20%28B%F6l%FCm%201%29%20Kendimize%20g%FCzel%20bir%20rota%20%E7izdik.%20Derdimiz%20bol%20bol%20denize%20girmek%20ve%20%E7al%u0131%u015Fmakt%u0131.%20Sonbaharda%20bir%20proje%20i%E7in%20bir%20ayl%u0131%u011F%u0131na%20...%0Adevam%u0131n%u0131%20oku</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,6 @@
+H:\Masallah\Projects\SeyahatPlatformu\LOGI.Framework\Projects\LOGI.Model.Common\obj\Debug\LOGI.Model.Common.csprojResolveAssemblyReference.cache
+H:\Masallah\Projects\SeyahatPlatformu\Output\Debug\LOGI.Model.Common.XML
+H:\Masallah\Projects\SeyahatPlatformu\Output\Debug\LOGI.Model.Common.dll
+H:\Masallah\Projects\SeyahatPlatformu\Output\Debug\LOGI.Model.Common.pdb
+H:\Masallah\Projects\SeyahatPlatformu\LOGI.Framework\Projects\LOGI.Model.Common\obj\Debug\LOGI.Model.Common.dll
+H:\Masallah\Projects\SeyahatPlatformu\LOGI.Framework\Projects\LOGI.Model.Common\obj\Debug\LOGI.Model.Common.pdb

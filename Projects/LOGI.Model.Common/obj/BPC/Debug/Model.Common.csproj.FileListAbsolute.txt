@@ -1,0 +1,5 @@
+Z:\Debug\Model.Common.dll
+Z:\Debug\Model.Common.pdb
+F:\Root\Masallah\Projects\TravelPortal\TravelPortal\Projects\Model.Common\obj\BPC\Debug\ResolveAssemblyReference.cache
+F:\Root\Masallah\Projects\TravelPortal\TravelPortal\Projects\Model.Common\obj\BPC\Debug\Model.Common.dll
+F:\Root\Masallah\Projects\TravelPortal\TravelPortal\Projects\Model.Common\obj\BPC\Debug\Model.Common.pdb

@@ -1,0 +1,79 @@
+﻿<header id="top">
+    <h1><a href="./" accesskey="h"></a></h1>
+    <nav id="skip">
+        <ul>
+            <li><a href="#nav" accesskey="n">Skip to navigation (n)</a></li>
+            <li><a href="#content" accesskey="c">Skip to content (c)</a></li>
+            <li><a href="#footer" accesskey="f">Skip to footer (f)</a></li>
+        </ul>
+    </nav>
+    <nav id="nav">
+        <ul class="primary">
+            <li class="active"><a accesskey="1" href="@Url.Action("Index","Home")">Home</a> <em>(1)</em></li>
+            <li><a accesskey="2" href="@Url.Action("Index","Hotel")">Hotel</a> <em>(2)</em></li>
+            <li><a accesskey="3" href="#">All Pages</a> <em>(3)</em>
+                <ul>
+                    <li class="active"><a href="@Url.Action("Index","Home")">Home</a></li>
+                    <li><a href="@Url.Action("Index","Hotel")">Hotel</a></li>
+                    <li><a href="hotel-list.html">Hotel List</a></li>
+                    <li><a href="hotel-details.html">Hotel Details</a></li>
+                    <li><a href="hotel-grid.html">Hotel Grid</a></li>
+                    <li><a href="booking-view.html">Booking View</a></li>
+                    <li><a href="booking-confirm.html">Booking Confirm</a></li>
+                    <li><a href="blog.html">Blog Listings</a></li>
+                    <li><a href="blog-article.html">Blog Single</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </li>
+
+            <li><a accesskey="4" href="#">Hotel Pages</a> <em>(4)</em>
+                <ul>
+                    <li><a href="hotel-list.html">Hotel List</a></li>
+                    <li><a href="hotel-details.html">Hotel Details</a></li>
+                    <li><a href="hotel-grid.html">Hotel Grid</a></li>
+                </ul>
+            </li>
+
+            <li><a accesskey="5" href="#">Booking Pages</a> <em>(5)</em>
+                <ul>
+                    <li><a href="booking-view.html">Booking View</a></li>
+                    <li><a href="booking-confirm.html">Booking Confirm</a></li>
+                </ul>
+            </li>
+
+            <li><a accesskey="6" href="#">Blog</a> <em>(6)</em>
+                <ul>
+                    <li><a href="blog.html">Blog Listings</a></li>
+                    <li><a href="blog-article.html">Blog Single</a></li>
+                </ul>
+            </li>
+
+            <li><a accesskey="7" href="contact.html">Contact</a> <em>(7)</em></li>
+        </ul>
+        <ul class="secondary">
+            <li class="gb"><span>En</span>
+                <ul>
+                    <li class="de"><a href="./">Deutsh</a></li>
+                    <li class="es"><a href="./">Español</a></li>
+                    <li class="fr"><a href="./">Français</a></li>
+                    <li class="pl"><a href="./">Polski</a></li>
+                </ul>
+            </li>
+            <li><span>USD</span>
+                <ul>
+                    <li><a href="./">EUR</a></li>
+                    <li><a href="./">GBP</a></li>
+                    <li><a href="./">CHF</a></li>
+                    <li><a href="./">PLN</a></li>
+                </ul>
+            </li>
+        </ul>
+        <p class="link-a"><a href="./">Login</a> <a href="./">Register</a></p>
+    </nav>
+    @{
+        Html.RenderPartial("~/Views/Home/Controls/HeaderSearch.cshtml");
+    }
+   
+
+    <p class="tel">Call us today <span>(84) - 868 868 888</span></p>
+</header>

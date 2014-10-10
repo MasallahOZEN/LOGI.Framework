@@ -1,0 +1,16 @@
+﻿@using LOGI.Core.Domain.Model.Hotel.Deals
+@{
+    ViewBag.Title = "Hotel";
+    Layout = "~/Views/Shared/_MasterSubLayout.cshtml";
+
+    var popularDeals = ViewBag.PopularDeals as List<PopularDealModel>;
+}
+
+@section MainContent{
+    @{Html.RenderPartial("~/Views/Home/Controls/MainSearchPanel.cshtml");}
+
+    <section id="content">
+		@{Html.RenderPartial("~/Views/Hotel/Deals/HotDeals.cshtml");}
+		@{Html.RenderPartial("~/Views/Hotel/Deals/PopularDeals.cshtml", popularDeals);}
+	</section>
+}

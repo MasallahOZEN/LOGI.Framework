@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1DCBEAB6-554D-4639-B4AC-E85D247D06FD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LOGI.Core.Domain.Model.Common</RootNamespace>
+    <AssemblyName>LOGI.Model.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Output\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\..\Output\Debug\LOGI.Model.Common.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Output\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>LOGIProjectsStrongKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FluentValidation, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a82054b837897c66, processorArchitecture=MSIL" />
+    <Reference Include="LOGI.Framework.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e0423f6327e9afb9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Output\Debug\LOGI.Framework.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="LOGI.Framework.Toolkit.Foundation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e0423f6327e9afb9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Output\Debug\LOGI.Framework.Toolkit.Foundation.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.0.8.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>Z:\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\BaseFare.cs" />
+    <Compile Include="Base\BaseRequest.cs" />
+    <Compile Include="Base\BaseResponse.cs" />
+    <Compile Include="Base\BaseResponseExeptionItem.cs" />
+    <Compile Include="Base\BaseResponseItem.cs" />
+    <Compile Include="Base\BaseValidatable.cs" />
+    <Compile Include="Base\BaseSearchParameter.cs" />
+    <Compile Include="Base\BaseResponseExeptionItems.cs" />
+    <Compile Include="Base\ResponseStatusType.cs" />
+    <Compile Include="LocalizedValue.cs" />
+    <Compile Include="OriginDestination.cs" />
+    <Compile Include="OriginDestinationItem.cs" />
+    <Compile Include="OriginDestinationItemCollection.cs" />
+    <Compile Include="Base\PriceInfoType.cs" />
+    <Compile Include="Passengers\PassengerCollection.cs" />
+    <Compile Include="Passengers\PassengerFare.cs" />
+    <Compile Include="Passengers\Passenger.cs" />
+    <Compile Include="Passengers\PassengerGender.cs" />
+    <Compile Include="Passengers\PassengerType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validation\OriginDestinationItemValidator.cs" />
+    <Compile Include="Validation\PassengerValidator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LOGIProjectsStrongKey.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties DocumentXCommentEditorState="&lt;HtmlEditState&gt;&#xA;  &lt;Attributes&gt;&#xA;    &lt;Attribute key=&quot;dtscrollpos&quot; valuetype=&quot;integer&quot;&gt;0&lt;/Attribute&gt;&#xA;    &lt;Attribute key=&quot;lang_VB&quot; valuetype=&quot;string&quot;&gt;on&lt;/Attribute&gt;&#xA;    &lt;Attribute key=&quot;lang_VBUsage&quot; valuetype=&quot;string&quot;&gt;on&lt;/Attribute&gt;&#xA;    &lt;Attribute key=&quot;lang_CS&quot; valuetype=&quot;string&quot;&gt;on&lt;/Attribute&gt;&#xA;    &lt;Attribute key=&quot;lang_CPP2005&quot; valuetype=&quot;string&quot;&gt;on&lt;/Attribute&gt;&#xA;    &lt;Attribute key=&quot;inheritedMembers&quot; valuetype=&quot;string&quot;&gt;on&lt;/Attribute&gt;&#xA;    &lt;Attribute key=&quot;protectedMembers&quot; valuetype=&quot;string&quot;&gt;on&lt;/Attribute&gt;&#xA;    &lt;Attribute key=&quot;SyntaxGroup_SelectedTab&quot; valuetype=&quot;string&quot;&gt;SyntaxTab_VB&lt;/Attribute&gt;&#xA;  &lt;/Attributes&gt;&#xA;&lt;/HtmlEditState&gt;" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

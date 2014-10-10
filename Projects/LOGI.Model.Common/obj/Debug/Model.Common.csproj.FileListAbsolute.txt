@@ -1,0 +1,14 @@
+D:\Root\Masallah\Projects\TravelPortal\Output\Debug\Model.Common.dll
+D:\Root\Masallah\Projects\TravelPortal\Output\Debug\Model.Common.pdb
+D:\Root\Masallah\Projects\TravelPortal\TravelPortal\Projects\Model.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Root\Masallah\Projects\TravelPortal\TravelPortal\Projects\Model.Common\obj\Debug\Model.Common.dll
+D:\Root\Masallah\Projects\TravelPortal\TravelPortal\Projects\Model.Common\obj\Debug\Model.Common.pdb
+D:\Root\Masallah\Projects\TravelPortal\Output\Debug\Model.Common.XML
+F:\Root\Masallah\Projects\TravelPortal\Output\Debug\Model.Common.dll
+F:\Root\Masallah\Projects\TravelPortal\Output\Debug\Model.Common.pdb
+F:\Root\Masallah\Projects\TravelPortal\TravelPortal\Projects\Model.Common\obj\Debug\ResolveAssemblyReference.cache
+F:\Root\Masallah\Projects\TravelPortal\TravelPortal\Projects\Model.Common\obj\Debug\Model.Common.dll
+F:\Root\Masallah\Projects\TravelPortal\TravelPortal\Projects\Model.Common\obj\Debug\Model.Common.pdb
+F:\Root\Masallah\Projects\TravelPortal\Output\Debug\Model.Common.XML
+Z:\Debug\Model.Common.dll
+Z:\Debug\Model.Common.pdb

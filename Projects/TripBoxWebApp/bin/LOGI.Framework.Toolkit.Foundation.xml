@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LOGI.Framework.Toolkit.Foundation</name>
+    </assembly>
+    <members>
+        <member name="T:LOGI.Framework.Toolkit.Foundation.Caching.ICacheWrapper">
+            <summary>
+             ICacheWrapper
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.Foundation.Collections.IPagedList">
+            <summary>
+            Paged list interface
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.Foundation.Config.IConfigWrapper">
+            <summary>
+             IConfigWrapper
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.Foundation.Config.ProtectionConfigurationProviders">
+            <summary>
+             ProtectionConfigurationProviders
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.Foundation.Config.ProtectionConfigurationProviders.DataProtectionConfigurationProvider">
+            <summary>
+             Data Protection Configuration Provider
+            </summary>
+        </member>
+        <member name="F:LOGI.Framework.Toolkit.Foundation.Config.ProtectionConfigurationProviders.RsaProtectedConfigurationProvider">
+            <summary>
+             RSA Protected Configuration Provider
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.Foundation.Globalization.ICurrencyConverter">
+            <summary>
+            ICurrencyConverter
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.Foundation.Globalization.ICurrencyConverter.ConvertCurrency(System.Decimal,System.String,System.String)">
+            <summary>
+            Para birimleri arasında dönüşüm sağlar
+            </summary>
+            <param name="fromCurrency">Hangi para biriminden( örn TRY)</param>
+            <param name="toCurrency">Hangi para birimine (örn. EUR)</param>
+            <returns>Float</returns>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.Foundation.Membership.IOnlineUserInfo">
+            <summary>
+            Represents an online user info
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.Foundation.Membership.IOnlineUserInfo.OnlineUserGuid">
+            <summary>
+            Gets or sets the unique identifier
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.Foundation.Membership.IOnlineUserInfo.AssociatedCustomerId">
+            <summary>
+            Gets or sets the associated customer identifier (if he exists)
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.Foundation.Membership.IOnlineUserInfo.IPAddress">
+            <summary>
+            Gets or sets the IP Address
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.Foundation.Membership.IOnlineUserInfo.LastPageVisited">
+            <summary>
+            Gets or sets the last page visited
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.Foundation.Membership.IOnlineUserInfo.CreatedOn">
+            <summary>
+            Gets or sets the date and time of instance creation
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.Foundation.Membership.IOnlineUserInfo.LastVisit">
+            <summary>
+            Gets or sets the last visit date and time
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.Foundation.Membership.IOnlineUserService">
+            <summary>
+            Online user service interface
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.Foundation.Membership.IOnlineUserService.TrackCurrentUser">
+            <summary>
+            Tracks current user
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.Foundation.Membership.IOnlineUserService.ClearUserList">
+            <summary>
+            Clears user list
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.Foundation.Membership.IOnlineUserService.PurgeUsers">
+            <summary>
+            Purges expired users
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.Foundation.Membership.IOnlineUserService.GetGuestList">
+            <summary>
+            Get online users (guest)
+            </summary>
+            <returns>Online user list</returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.Foundation.Membership.IOnlineUserService.GetRegisteredUsersOnline">
+            <summary>
+            Get online users (registered)
+            </summary>
+            <returns>Online user list</returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.Foundation.Membership.IOnlineUserService.GetAllUserList">
+            <summary>
+            Get online users (guests and registered users)
+            </summary>
+            <returns>Online user list</returns>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.Foundation.Membership.IOnlineUserService.Enabled">
+            <summary>
+            Gets a value indicating whether tracking online users is enabled
+            </summary>
+        </member>
+        <member name="P:LOGI.Framework.Toolkit.Foundation.Membership.IOnlineUserService.MaximumOnlineCustomers">
+            <summary>
+            Gets a maximum online customer number
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.Foundation.Repository.EntityBase">
+            <summary>
+             EntityBase
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.Foundation.Repository.IGenericRepository`1.GetQuery">
+            <summary>
+            Return strongly typed IQueryable
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.Foundation.Repository.IGenericRepository`1.Load(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            Load entity from the repository (always query store)
+            </summary>
+            <typeparam name="T">the entity type to load</typeparam>
+            <param name="whereCondition">where condition</param>
+            <returns>the loaded entity</returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.Foundation.Repository.IGenericRepository`1.LoadProperty(`0,System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
+            <summary>
+            Provides explicit loading of object properties
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.Foundation.Repository.IGenericRepository`1.GetAll">
+            <summary>
+            Returns all entities for a given type
+            </summary>
+            <returns>All entities</returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.Foundation.Repository.IGenericRepository`1.Find(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            Returns all entities for a given type
+            </summary>
+            <returns>All entities</returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.Foundation.Repository.IGenericRepository`1.Add(`0)">
+            <summary>
+            Add entity to the repository
+            </summary>
+            <param name="entity">the entity to add</param>
+            <returns>The added entity</returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.Foundation.Repository.IGenericRepository`1.SaveChanges">
+            <summary>
+            Save all changes from repository to store
+            </summary>
+            <returns>Total number of objects affected</returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.Foundation.Repository.IGenericRepository`1.Delete(`0)">
+            <summary>
+            Mark entity to be deleted within the repository
+            </summary>
+            <param name="entity">The entity to delete</param>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.Foundation.Security.ISymmetricEncryptionService">
+            <summary>
+            Assists with application operations for symmetric (shared key) encryption
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.Foundation.SendMessage.ISendMessage">
+            <summary>
+            SMS,Email vb mesajlarının gönderilmesi için gereken şema
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.Foundation.SendMessage.ISendMessage.SendMessage``1(``0)">
+            <summary>
+            SendMessage
+            </summary>
+            <returns>bool</returns>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.Foundation.Serialization.ISerializerOptions">
+            <summary>
+            Serileştirme işleminde kullanılacak converter için gerekli parametreleri taşır
+            </summary>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.Foundation.Tasks.ITask">
+            <summary>
+            Interface that should be implemented by each task
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.Foundation.Tasks.ITask.Execute(System.Xml.XmlNode)">
+            <summary>
+            Execute task
+            </summary>
+            <param name="node">Custom configuration node</param>
+        </member>
+        <member name="T:LOGI.Framework.Toolkit.Foundation.TemplateEngines.ITemplateEngine">
+            <summary>
+            Summary description for INVelocityEngine.
+            </summary>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.Foundation.TemplateEngines.ITemplateEngine.Process(System.Collections.IDictionary,System.String)">
+            <summary>
+            Processes the specified context.
+            </summary>
+            <param name="context">The context.</param>
+            <param name="template">Name of the template.</param>
+            <returns></returns>
+        </member>
+        <member name="M:LOGI.Framework.Toolkit.Foundation.TemplateEngines.ITemplateEngine.Process(System.Collections.IDictionary,System.IO.TextWriter,System.String)">
+            <summary>
+            Processes the specified context.
+            </summary>
+            <param name="context">The context.</param>
+            <param name="writer">The writer.</param>
+            <param name="template">Name of the template.</param>
+        </member>
+    </members>
+</doc>

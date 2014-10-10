@@ -1,0 +1,79 @@
+﻿@model TripBoxWebApp.Models.Home.MainSearchPanelModel
+
+<article id ="home">
+	<figure class="image-c"><a href="~/Views/Home/"><img src="~/Content/temp/featured-a.jpg" alt="Featured" width="1260" height="754"></a> <figcaption>Need a luxury room for your holiday <span>Paris Hilton hotel</span> <span>$450  /  night</span></figcaption></figure>
+    
+    @using (Html.BeginForm("SearchPanel", "Home", FormMethod.Post, new { @class = "form-c" }))
+    {
+        <fieldset>
+			<legend>Book now</legend>
+			<h3><span>01.</span> What?</h3>
+			<ul class="check-c">
+                <li><label for="fcaa">@Html.RadioButtonFor(model => model.ModuleName,"1",new {@id="fcaa",@name="fcaa"}) Hotels</label></li>
+                <li><label for="fcab">@Html.RadioButtonFor(model => model.ModuleName,"2",new {@id="fcab",@name="fcab"}) Flights</label></li>
+                <li><label for="fcac">@Html.RadioButtonFor(model => model.ModuleName,"3",new {@id="fcac",@name="fcac"}) Cars</label></li>
+                <li><label for="fcad">@Html.RadioButtonFor(model => model.ModuleName,"4",new {@id="fcad",@name="fcad"}) Rent car</label></li>
+                <li><label for="fcae">@Html.RadioButtonFor(model => model.ModuleName,"5",new {@id="fcae",@name="fcae"}) Cruise</label></li>
+                <li><label for="fcaf">@Html.RadioButtonFor(model => model.ModuleName,"6",new {@id="fcaf",@name="fcaf"}) All</label></li>
+			</ul>
+			<h3><span>02.</span> Where?</h3>
+			<p class="select-c">
+				<label for="fcb">Location</label>
+				<select id="fcb" name="fcb">
+					<option>Seraton Hotel - Hanoi, Vietnam</option>
+					<option>Seraton Hotel - Hanoi, Vietnam</option>
+					<option>Seraton Hotel - Hanoi, Vietnam</option>
+					<option>Seraton Hotel - Hanoi, Vietnam</option>
+				</select>
+			</p>
+			<h3><span>03.</span> When?</h3>
+			<p class="date-a">
+				<span>
+                    <label for="fcc">Check in</label>
+                    @*@Html.LabelFor(x=>x.CheckIn,"Check in")*@
+                    @Html.TextBoxFor(x=>x.CheckIn, new {@name="fcc" ,@id = "fcc",@required=true })
+				</span>
+				<span>
+					<label for="fcd">Check Out</label>
+                    @*<input type="text" id="fcd" name="fcd" required>*@
+                    @Html.TextBoxFor(x=>x.CheckIn, new {@name="fcc" ,@id = "fcd",@required=true })
+				</span>
+			</p>
+			<h3><span>04.</span> Who?</h3>
+			<p class="select-a">
+				<span>
+					<label for="fce">Rooms</label>
+					<select id="fce" name="fce">
+						<option>01</option>
+						<option>02</option>
+						<option>03</option>
+						<option>04</option>
+						<option>05</option>
+					</select>
+				</span>
+				<span>
+					<label for="fcf">Adults</label>
+					<select id="fcf" name="fcf">
+						<option>01</option>
+						<option>02</option>
+						<option>03</option>
+						<option>04</option>
+						<option>05</option>
+					</select>
+				</span>
+				<span>
+					<label for="fcg">Child</label>
+					<select id="fcg" name="fcg">
+						<option>01</option>
+						<option>02</option>
+						<option>03</option>
+						<option>04</option>
+						<option>05</option>
+					</select>
+				</span>
+			</p>
+			<p class="submit"><button type="submit" name="SearchPanel">Proceed</button></p>
+		</fieldset>
+    }
+
+</article>

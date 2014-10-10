@@ -1,0 +1,331 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LOGI.Model.Common</name>
+    </assembly>
+    <members>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.PriceInfoType.TotalPrice">
+            <summary>
+            Toplam Ücret (servisin gönderdiği birimin TL karşılığı)
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.PriceInfoType.Currency">
+            <summary>
+            Para birimi (servisin gönderdiği birimin gösterilmek istenen birim karşılığı)
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.PriceInfoType.CurrencyExchangeRate">
+            <summary>
+            Para birimi (servisin gönderdiği birimin gösterilmek istenen birim karşılığı) kur değeri
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.PriceInfoType.ExtendedValues">
+            <summary>
+            Extra parametre taşımak istenirse
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseFare.SerializedOriginalObject">
+            <summary>
+            PriceInfo'ya dönüştürülen gerçek obje
+            </summary>
+        </member>
+        <member name="T:LOGI.Core.Domain.Model.Common.Base.BaseRequest">
+            <summary>
+            Base gidiş tipi
+            </summary>
+        </member>
+        <member name="T:LOGI.Core.Domain.Model.Common.Base.BaseValidatable">
+            <summary>
+            Base gidiş tipi
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseValidatable.MyProperty">
+            <summary>
+            Custom MyProperty
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseRequest.RequestSource">
+            <summary>
+            Loglama işleminde isteğin kimden geldiğini belirtir. (WebApp/Service/Test)
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseRequest.ReferenceNumber">
+            <summary>
+            Arama yapıldığında oluşan search token değeri 
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseRequest.ExtendedValues">
+            <summary>
+            Extra parametre taşımak istenirse
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseRequest.ExtraTypeForSerialization">
+            <summary>
+            Serialization işlemlerinde,serilize edilecek tipin serialize işleminde hata vermemesi adına içerebileceği type'ları belirtir. 
+            </summary>
+        </member>
+        <member name="T:LOGI.Core.Domain.Model.Common.Base.BaseResponse">
+            <summary>
+            Base dönüş tipi
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseResponse.ResponseStatus">
+            <summary>
+            Cevap durumu
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseResponse.HasErrors">
+            <summary>
+            Istek sonucu hata oluştu mu ?
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseResponse.ResponseExeptions">
+            <summary>
+            Istek sonucu oluşan hata listesi
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseResponse.ServiceName">
+            <summary>
+            ServiceName
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseResponse.ReferenceNumber">
+            <summary>
+            ReferenceNumber
+            </summary>
+        </member>
+        <member name="T:LOGI.Core.Domain.Model.Common.Base.BaseResponseItem">
+            <summary>
+            Base response item, book yada ticket işlemlerinden dönüş
+            </summary>
+        </member>
+        <member name="M:LOGI.Core.Domain.Model.Common.Base.BaseResponseItem.GetTransactionIdentifier">
+            <summary>
+            Transaction tekil değeri
+            </summary>
+        </member>
+        <member name="M:LOGI.Core.Domain.Model.Common.Base.BaseResponseItem.SetTransactionIdentifier(System.String)">
+            <summary>
+            Transaction tekil değeri setlenir
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseResponseItem.PnrNumber">
+            <summary>
+            Servislerden rezervasyon sonucu dönen pnr numarası
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseResponseItem.Date">
+            <summary>
+            İşlem zamanı
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseResponseItem.isDummyPnr">
+            <summary>
+            Pnr'ın custom olduğunu belirtir.
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseResponseItem.LastName">
+            <summary>
+            Servislerden rezervasyon sonucu dönen pnr'a karşılık soyisim
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseResponseItem.RetryCount">
+            <summary>
+            Tekrar deneme sayısı
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseResponseItem.TransactionIdentifier">
+            <summary>
+            Transaction Identifier
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseResponseItem.ServiceRegisterName">
+            <summary>
+            Rezervasyonu sağlayan servis
+            <example>
+            Ucak=>THY/Atlas gibi
+            </example>
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseResponseItem.TimeLimit">
+            <summary>
+             TimeLimit
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Base.BaseResponseItem.ExtendedValues">
+            <summary>
+            Extra parametre taşımak istenirse
+            </summary>
+        </member>
+        <member name="T:LOGI.Core.Domain.Model.Common.Base.BaseResponseExeptionItems">
+            <summary>
+            Base dönüş tipi
+            </summary>
+        </member>
+        <member name="T:LOGI.Core.Domain.Model.Common.Base.ResponseStatusType">
+            <summary>
+            Response status type
+            </summary>
+        </member>
+        <member name="F:LOGI.Core.Domain.Model.Common.Base.ResponseStatusType.Warning">
+            <summary>
+            Uyarı
+            </summary>
+        </member>
+        <member name="F:LOGI.Core.Domain.Model.Common.Base.ResponseStatusType.Successful">
+            <summary>
+            Başarılı
+            </summary>
+        </member>
+        <member name="F:LOGI.Core.Domain.Model.Common.Base.ResponseStatusType.Error">
+            <summary>
+            Hatalı
+            </summary>
+        </member>
+        <member name="F:LOGI.Core.Domain.Model.Common.Base.ResponseStatusType.Unknown">
+            <summary>
+            Bilinmiyor (default)
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.LocalizedValue.Culture">
+            <summary>
+            Item ın culture değeri
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.LocalizedValue.Value">
+            <summary>
+            Item ın culture değeri
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.LocalizedValue.Definition">
+            <summary>
+            Varsa Item Açıklaması
+            </summary>
+        </member>
+        <member name="T:LOGI.Core.Domain.Model.Common.LocalizedValues">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.LocalizedValues.LocalizedValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.OriginDestination.LocationType">
+            <summary>
+            LocationType
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.OriginDestination.LocationValue">
+            <summary>
+            LocationValue
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.OriginDestination.LocationText">
+            <summary>
+            LocationText
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.OriginDestination.Tag">
+            <summary>
+            Kalkış ve varış noktası ile ilgili herhangi bir bilgi tutmak için
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.OriginDestinationItem.Origin">
+            <summary>
+            Kalkış Noktası
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.OriginDestinationItem.Destination">
+            <summary>
+            Varış Noktası
+            </summary>
+        </member>
+        <member name="T:LOGI.Core.Domain.Model.Common.Passengers.PassengerFare">
+            <summary>
+             Yolcu ücret bilgisi
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Passengers.PassengerFare.PriceInfo">
+            <summary>
+             Yolcu ücret bilgisi (Son kullanıcı)
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Passengers.PassengerFare.PriceInfoOriginal">
+            <summary>
+             Yolcu ücret bilgisi (Servis gercek degeri)
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Passengers.PassengerFare.Type">
+            <summary>
+             Yolcu tipi (Adult,Child)
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Passengers.PassengerFare.Quantity">
+            <summary>
+            Yolcu tipindeki kişi sayısı
+            </summary>
+        </member>
+        <member name="P:LOGI.Core.Domain.Model.Common.Passengers.Passenger.ExtendedValues">
+            <summary>
+            Extra parametre taşımak istenirse
+            </summary>
+        </member>
+        <member name="T:LOGI.Core.Domain.Model.Common.Passengers.PassengerType">
+            <summary>
+             Yolcu tipleri
+            </summary>
+        </member>
+        <member name="F:LOGI.Core.Domain.Model.Common.Passengers.PassengerType.None">
+            <summary>
+            Default Type
+            </summary>
+        </member>
+        <member name="F:LOGI.Core.Domain.Model.Common.Passengers.PassengerType.Adult">
+            <summary>
+            Yetişkin
+            </summary>
+        </member>
+        <member name="F:LOGI.Core.Domain.Model.Common.Passengers.PassengerType.Child">
+            <summary>
+            Çocuk (2 ve 12 yaş arası)
+            </summary>
+        </member>
+        <member name="F:LOGI.Core.Domain.Model.Common.Passengers.PassengerType.Infant">
+            <summary>
+            Bebek (0 ve 2 yaş arası)
+            </summary>
+        </member>
+        <member name="F:LOGI.Core.Domain.Model.Common.Passengers.PassengerType.Student">
+            <summary>
+            Öğrenci
+            </summary>
+        </member>
+        <member name="F:LOGI.Core.Domain.Model.Common.Passengers.PassengerType.Youth">
+            <summary>
+            Genç (12 ve 20 yaş arası)
+            </summary>
+        </member>
+        <member name="F:LOGI.Core.Domain.Model.Common.Passengers.PassengerType.TSK">
+            <summary>
+            TSK
+            </summary>
+        </member>
+        <member name="F:LOGI.Core.Domain.Model.Common.Passengers.PassengerType.Senior">
+            <summary>
+            Yaşlı (65 yaş üstü)
+            </summary>
+        </member>
+        <member name="T:LOGI.Core.Domain.Model.Common.Validation.OriginDestinationItemValidator">
+            <summary>
+             FlightOriginDestinationItemValidator
+            </summary>
+        </member>
+        <member name="T:LOGI.Core.Domain.Model.Common.Validation.PassengerValidator">
+            <summary>
+             Flight Request Validator
+            </summary>
+        </member>
+    </members>
+</doc>
